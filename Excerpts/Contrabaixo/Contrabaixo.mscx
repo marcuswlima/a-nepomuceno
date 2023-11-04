@@ -28,7 +28,7 @@
     <metaTag name="partName">Contrabaixo</metaTag>
     <Part id="5">
       <Staff id="1">
-        <linkedTo>7</linkedTo>
+        <linkedTo>9</linkedTo>
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -69,7 +69,7 @@
         <bottomGap>35</bottomGap>
         <linked>
           <location>
-            <staves>-6</staves>
+            <staves>-8</staves>
             </location>
           </linked>
         <visible>0</visible>
@@ -77,26 +77,26 @@
         <Text>
           <linked>
             <location>
-              <staves>-6</staves>
+              <staves>-8</staves>
               </location>
             </linked>
           <style>frame</style>
           <align>center,top</align>
-          <text><font size="67"/>
+          <text><font size="67"></font>
 Série Brazileira
-<font size="20"/>
-para 
+
+<font size="20"></font>para 
 ORCHESTRA
 
-<font size="23"/>Por
-<font size="38"/>Alberto Nepomuceno
+<font size="23"></font>Por
+<font size="38"></font>Alberto Nepomuceno
 
-<font size="20"/>1.Alvorada na Serra
+<font size="20"></font>1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
 
-Emufpa/2023
+OPSAP/2023.02
 </text>
           </Text>
         </TBox>
@@ -106,52 +106,32 @@ Emufpa/2023
         <boxAutoSize>0</boxAutoSize>
         <linked>
           <location>
-            <staves>-6</staves>
+            <staves>-8</staves>
             </location>
           </linked>
         <Text>
           <linked>
             <location>
-              <staves>-6</staves>
+              <staves>-8</staves>
               </location>
             </linked>
           <style>title</style>
           <text>Suite Brasileira</text>
           </Text>
         <Text>
+          <style>instrument_excerpt</style>
+          <text>Contrabaixo</text>
+          </Text>
+        <Text>
           <linked>
             <location>
-              <staves>-6</staves>
+              <staves>-8</staves>
               </location>
             </linked>
           <style>composer</style>
           <text>A. Nepomuceno</text>
           </Text>
-        <Text>
-          <style>instrument_excerpt</style>
-          <text>Contrabaixo</text>
-          </Text>
         </VBox>
-      <TBox>
-        <height>1</height>
-        <topGap>3</topGap>
-        <linked>
-          <location>
-            <staves>-6</staves>
-            </location>
-          </linked>
-        <Text>
-          <linked>
-            <location>
-              <staves>-6</staves>
-              </location>
-            </linked>
-          <style>frame</style>
-          <size>20</size>
-          <align>center,top</align>
-          <text><font size="20"></font>I - Madrugada na Serra</text>
-          </Text>
-        </TBox>
       <Measure>
         <voice>
           <KeySig>
@@ -168,9 +148,9 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
-              <indexDiff>9</indexDiff>
+              <indexDiff>7</indexDiff>
               </linked>
             <italic>1</italic>
             <text><b>Lentamente</b></text>
@@ -184,8 +164,8 @@ Emufpa/2023
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/2">
-        <multiMeasureRest>10</multiMeasureRest>
+      <Measure len="18/2">
+        <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
             <linked>
@@ -196,9 +176,9 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
-              <indexDiff>9</indexDiff>
+              <indexDiff>7</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Lentamente</b></text>
@@ -292,6 +272,12 @@ Emufpa/2023
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Rest>
             <linked>
               </linked>
@@ -305,7 +291,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>1</text>
@@ -323,7 +309,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -337,18 +323,21 @@ Emufpa/2023
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="18/2">
+        <multiMeasureRest>9</multiMeasureRest>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
+          <SystemText>
             <linked>
+              <location>
+                <staves>-8</staves>
+                </location>
               </linked>
-            </Fermata>
+            <italic>1</italic>
+            <text><i>Piu Lento</i></text>
+            </SystemText>
           <Rest>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <duration>18/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -362,13 +351,13 @@ Emufpa/2023
             </Rest>
           </voice>
         </Measure>
-      <Measure len="14/2">
-        <multiMeasureRest>7</multiMeasureRest>
+      <Measure>
         <voice>
           <Rest>
-            <small>1</small>
+            <linked>
+              </linked>
             <durationType>measure</durationType>
-            <duration>14/2</duration>
+            <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -437,7 +426,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>2</text>
@@ -445,7 +434,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>Clarinete</text>
@@ -464,7 +453,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <offset x="1.55489" y="-2.70351"/>
@@ -473,7 +462,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -582,7 +571,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>3</text>
@@ -601,7 +590,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>3</text>
@@ -708,7 +697,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>4</text>
@@ -727,7 +716,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>4</text>
@@ -987,7 +976,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>5</text>
@@ -1022,7 +1011,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -1221,7 +1210,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>6</text>
@@ -1532,7 +1521,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>7</text>
@@ -1705,7 +1694,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -1833,7 +1822,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>8</text>
@@ -1951,7 +1940,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -1975,7 +1964,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>Harpa</text>
@@ -1994,7 +1983,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <minDistance>0.336146</minDistance>
@@ -2044,7 +2033,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -2063,7 +2052,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -2082,7 +2071,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>9</text>
@@ -2119,7 +2108,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -2169,7 +2158,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -2283,7 +2272,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>10</text>
@@ -2491,7 +2480,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>11</text>
@@ -2823,7 +2812,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>12</text>
@@ -3061,7 +3050,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -3096,7 +3085,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -3130,7 +3119,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -3182,7 +3171,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>13</text>
@@ -3344,7 +3333,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>14</text>
@@ -3352,7 +3341,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -3443,7 +3432,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -3590,7 +3579,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>15</text>
@@ -3990,7 +3979,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>16</text>
@@ -4091,7 +4080,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -4201,7 +4190,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>17</text>
@@ -4345,7 +4334,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>18</text>
@@ -4353,7 +4342,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -4583,14 +4572,14 @@ Emufpa/2023
         <height>1</height>
         <linked>
           <location>
-            <staves>-6</staves>
+            <staves>-8</staves>
             </location>
           <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <linked>
             <location>
-              <staves>-6</staves>
+              <staves>-8</staves>
               </location>
             <indexDiff>1</indexDiff>
             </linked>
@@ -4618,7 +4607,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
@@ -4647,7 +4636,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
@@ -4755,7 +4744,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>19</text>
@@ -4950,7 +4939,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>20</text>
@@ -4969,7 +4958,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>20</text>
@@ -5138,7 +5127,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>21</text>
@@ -5157,7 +5146,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>21</text>
@@ -5224,7 +5213,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>G</text>
@@ -5233,7 +5222,7 @@ Emufpa/2023
             <tempo>0.875</tempo>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <bold>0</bold>
@@ -5254,7 +5243,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <minDistance>-6.30284</minDistance>
@@ -5266,7 +5255,7 @@ Emufpa/2023
             <tempo>0.875</tempo>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <bold>0</bold>
@@ -5316,7 +5305,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>22</text>
@@ -5335,7 +5324,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <minDistance>-6.30284</minDistance>
@@ -5444,7 +5433,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>23</text>
@@ -5463,7 +5452,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>23</text>
@@ -5655,7 +5644,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>24</text>
@@ -5914,7 +5903,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>25</text>
@@ -5933,7 +5922,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>25</text>
@@ -5990,7 +5979,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -6167,7 +6156,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>26</text>
@@ -6477,7 +6466,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>27</text>
@@ -6496,7 +6485,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>27</text>
@@ -6609,7 +6598,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>28</text>
@@ -6628,7 +6617,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>28</text>
@@ -6846,7 +6835,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -7113,7 +7102,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>30</text>
@@ -7132,7 +7121,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>30</text>
@@ -7395,7 +7384,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>31A</text>
@@ -7702,7 +7691,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -7761,7 +7750,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>31B</text>
@@ -8062,7 +8051,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>32A</text>
@@ -8183,7 +8172,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>32B</text>
@@ -8202,7 +8191,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>32B</text>
@@ -8371,7 +8360,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>K</text>
@@ -8390,7 +8379,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -8524,7 +8513,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>33</text>
@@ -8668,7 +8657,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>34</text>
@@ -8687,7 +8676,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>34</text>
@@ -8774,7 +8763,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>L</text>
@@ -8782,7 +8771,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -8802,7 +8791,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -8811,7 +8800,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -8950,7 +8939,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>36</text>
@@ -8969,7 +8958,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>36</text>
@@ -9171,7 +9160,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>37</text>
@@ -9320,7 +9309,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <minDistance>-999</minDistance>
@@ -9507,7 +9496,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <size>12</size>
@@ -9528,7 +9517,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <size>12</size>
@@ -9568,7 +9557,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>38</text>
@@ -9587,7 +9576,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>38</text>
@@ -9714,7 +9703,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <size>12</size>
@@ -9735,7 +9724,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <size>12</size>
@@ -9824,7 +9813,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>40</text>
@@ -10155,14 +10144,14 @@ Emufpa/2023
         <height>1</height>
         <linked>
           <location>
-            <staves>-6</staves>
+            <staves>-8</staves>
             </location>
           <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <linked>
             <location>
-              <staves>-6</staves>
+              <staves>-8</staves>
               </location>
             <indexDiff>1</indexDiff>
             </linked>
@@ -10192,7 +10181,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
@@ -10221,7 +10210,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
@@ -10330,7 +10319,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>1</text>
@@ -10466,7 +10455,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -10509,7 +10498,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -10548,7 +10537,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -10585,7 +10574,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -10628,7 +10617,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -10662,7 +10651,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>2</text>
@@ -10865,7 +10854,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>3</text>
@@ -10889,7 +10878,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -10917,7 +10906,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -11142,7 +11131,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text><i>Primo Tempo</i></text>
@@ -11161,7 +11150,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <italic>1</italic>
@@ -11438,14 +11427,14 @@ Emufpa/2023
         <height>1</height>
         <linked>
           <location>
-            <staves>-6</staves>
+            <staves>-8</staves>
             </location>
           <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <linked>
             <location>
-              <staves>-6</staves>
+              <staves>-8</staves>
               </location>
             <indexDiff>1</indexDiff>
             </linked>
@@ -11467,7 +11456,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
@@ -11495,7 +11484,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
@@ -11605,7 +11594,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>7</text>
@@ -12336,7 +12325,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>8</text>
@@ -13036,7 +13025,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>9</text>
@@ -13627,7 +13616,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -13714,7 +13703,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>10</text>
@@ -14434,7 +14423,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>11</text>
@@ -14453,7 +14442,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>11</text>
@@ -14951,7 +14940,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>12</text>
@@ -15252,7 +15241,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>13</text>
@@ -15271,7 +15260,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>13</text>
@@ -15353,7 +15342,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -15363,7 +15352,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -15384,7 +15373,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -15394,7 +15383,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -15830,7 +15819,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -15877,7 +15866,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>18</text>
@@ -15949,7 +15938,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>20</text>
@@ -16213,7 +16202,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>19</text>
@@ -16285,7 +16274,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>21</text>
@@ -16521,7 +16510,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -16593,7 +16582,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>22</text>
@@ -16801,7 +16790,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>23</text>
@@ -16954,12 +16943,12 @@ Emufpa/2023
               <linked>
                 </linked>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -17043,7 +17032,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>24</text>
@@ -17279,7 +17268,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>25</text>
@@ -17368,7 +17357,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <frameType>2</frameType>
@@ -17492,7 +17481,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>26</text>
@@ -17546,7 +17535,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>28</text>
@@ -17738,7 +17727,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>27</text>
@@ -17793,7 +17782,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>29</text>
@@ -17882,7 +17871,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -18082,7 +18071,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>30</text>
@@ -18348,7 +18337,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>31</text>
@@ -18412,7 +18401,7 @@ Emufpa/2023
           <SystemText>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
@@ -18632,7 +18621,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>32</text>
@@ -18900,7 +18889,7 @@ Emufpa/2023
           <RehearsalMark>
             <linked>
               <location>
-                <staves>-6</staves>
+                <staves>-8</staves>
                 </location>
               </linked>
             <text>33</text>
