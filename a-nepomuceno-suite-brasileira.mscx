@@ -240,8 +240,8 @@
         </Staff>
       <trackName>Viola</trackName>
       <Instrument id="viola">
-        <longName>Viola 1</longName>
-        <shortName>A. 1</shortName>
+        <longName>Viola</longName>
+        <shortName>Vl</shortName>
         <trackName>Viola</trackName>
         <minPitchP>48</minPitchP>
         <maxPitchP>93</maxPitchP>
@@ -279,8 +279,8 @@
         </Staff>
       <trackName>Viola 2</trackName>
       <Instrument id="viola">
-        <longName>Viola 2</longName>
-        <shortName>A 2</shortName>
+        <longName>Viola Div</longName>
+        <shortName>Vl Div.</shortName>
         <trackName>Viola</trackName>
         <minPitchP>48</minPitchP>
         <maxPitchP>93</maxPitchP>
@@ -319,8 +319,8 @@
         </Staff>
       <trackName>Violoncelo</trackName>
       <Instrument id="violoncello">
-        <longName>Violoncelo 1</longName>
-        <shortName>Vc. 1</shortName>
+        <longName>Violoncelo</longName>
+        <shortName>Vc</shortName>
         <trackName>Violoncelo</trackName>
         <minPitchP>36</minPitchP>
         <maxPitchP>90</maxPitchP>
@@ -358,8 +358,8 @@
         </Staff>
       <trackName>Violoncelo 2</trackName>
       <Instrument id="violoncello">
-        <longName>Violoncelo 2</longName>
-        <shortName>Vc. 2</shortName>
+        <longName>Viloncelo. Div</longName>
+        <shortName>Vc. Div</shortName>
         <trackName>Violoncelo</trackName>
         <minPitchP>36</minPitchP>
         <maxPitchP>90</maxPitchP>
