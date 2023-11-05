@@ -1278,6 +1278,11 @@ OPSAP/2023.02
             <linked>
               </linked>
             <durationType>whole</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1293,6 +1298,11 @@ OPSAP/2023.02
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -1917,6 +1927,12 @@ OPSAP/2023.02
               </linked>
             <durationType>quarter</durationType>
             </Rest>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <offset x="3" y="-0.5"/>
+            <linked>
+              </linked>
+            </Fermata>
           <Chord>
             <linked>
               </linked>
@@ -1933,6 +1949,11 @@ OPSAP/2023.02
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1942,6 +1963,7 @@ OPSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>cl. Solo</i></text>
@@ -1949,10 +1971,12 @@ OPSAP/2023.02
           <Fermata>
             <subtype>fermataAbove</subtype>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             </Fermata>
           <Rest>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
@@ -1972,6 +1996,7 @@ OPSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <offset x="0" y="3"/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -2251,8 +2276,8 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -2294,8 +2319,8 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -2329,8 +2354,8 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -2364,8 +2389,8 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -3176,6 +3201,12 @@ OPSAP/2023.02
               </linked>
             <text>13</text>
             </RehearsalMark>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
+            <linked>
+              </linked>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
           <Chord>
             <linked>
               </linked>
@@ -5511,6 +5542,12 @@ OPSAP/2023.02
               </linked>
             <text>arco</text>
             </PlayTechAnnotation>
+          <Dynamic>
+            <subtype>ppp</subtype>
+            <velocity>16</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -6088,6 +6125,11 @@ OPSAP/2023.02
             <linked>
               </linked>
             </Dynamic>
+          <PlayTechAnnotation>
+            <linked>
+              </linked>
+            <text>arco</text>
+            </PlayTechAnnotation>
           <Chord>
             <linked>
               </linked>
@@ -9570,8 +9612,8 @@ OPSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -9680,6 +9722,14 @@ OPSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-8</staves>
+                </location>
+              </linked>
+            <text>39</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
@@ -9690,6 +9740,12 @@ OPSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <offset x="3.5" y="-1.5"/>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <linked>
               </linked>
@@ -9818,6 +9874,12 @@ OPSAP/2023.02
               </linked>
             <text>40</text>
             </RehearsalMark>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
+            <linked>
+              </linked>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
           <Chord>
             <linked>
               </linked>
@@ -9997,15 +10059,39 @@ OPSAP/2023.02
           </voice>
         </Measure>
       <Measure>
-        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </MeasureRepeat>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -10865,6 +10951,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -10880,13 +10971,13 @@ OPSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <text><i>un poco piú presto</i></text>
             </SystemText>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -10898,7 +10989,6 @@ OPSAP/2023.02
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-1</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -10908,7 +10998,7 @@ OPSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <italic>1</italic>
             <offset x="-0.581892" y="-3.44558"/>
@@ -10919,6 +11009,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
+          <location>
+            <fractions>-9/4</fractions>
+            </location>
+          <BarLine>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -11161,6 +11256,14 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>54/4</duration>
             </Rest>
+          <location>
+            <fractions>-9/2</fractions>
+            </location>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -11271,6 +11374,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -11287,6 +11395,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15092,7 +15205,7 @@ OPSAP/2023.02
               </linked>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>stringsDownBow</subtype>
+              <subtype>stringsUpBow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -15108,7 +15221,7 @@ OPSAP/2023.02
               </linked>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>stringsUpBow</subtype>
+              <subtype>stringsDownBow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -15124,7 +15237,7 @@ OPSAP/2023.02
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>stringsDownBow</subtype>
+              <subtype>stringsUpBow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -16937,29 +17050,6 @@ OPSAP/2023.02
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>4</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -17037,14 +17127,6 @@ OPSAP/2023.02
               </linked>
             <text>24</text>
             </RehearsalMark>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>

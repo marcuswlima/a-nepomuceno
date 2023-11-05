@@ -3332,6 +3332,12 @@ OPSAP/2023.02
               </linked>
             <durationType>quarter</durationType>
             </Rest>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <offset x="3" y="-0.96375"/>
+            <linked>
+              </linked>
+            </Fermata>
           <Chord>
             <linked>
               </linked>
@@ -3366,6 +3372,11 @@ OPSAP/2023.02
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3375,6 +3386,7 @@ OPSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>cl. Solo</i></text>
@@ -3382,10 +3394,12 @@ OPSAP/2023.02
           <Fermata>
             <subtype>fermataAbove</subtype>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             </Fermata>
           <Rest>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
@@ -14297,8 +14311,8 @@ OPSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -14406,6 +14420,14 @@ OPSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text>39</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
@@ -14416,6 +14438,12 @@ OPSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <offset x="6.5" y="-0.5"/>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <linked>
               </linked>
@@ -15200,6 +15228,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15215,14 +15248,14 @@ OPSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>un poco piú presto</i></text>
             </SystemText>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -15234,7 +15267,6 @@ OPSAP/2023.02
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-1</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -15244,7 +15276,7 @@ OPSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>un poco piú presto</i></text>
@@ -15253,6 +15285,8 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15480,6 +15514,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>36/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15590,6 +15629,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15606,6 +15650,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20536,6 +20585,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24698,8 +24752,8 @@ OPSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -24809,6 +24863,11 @@ OPSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <linked>
               </linked>
@@ -25420,6 +25479,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25449,6 +25513,8 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25658,6 +25724,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>36/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25768,6 +25839,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25784,6 +25860,11 @@ OPSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
