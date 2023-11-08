@@ -112,16 +112,16 @@
             </linked>
           <style>frame</style>
           <align>center,top</align>
-          <text><font size="67"></font>
+          <text><font size="67"/>
 Série Brazileira
 
-<font size="20"></font>para 
+<font size="20"/>para 
 ORCHESTRA
 
-<font size="23"></font>Por
-<font size="38"></font>Alberto Nepomuceno
+<font size="23"/>Por
+<font size="38"/>Alberto Nepomuceno
 
-<font size="20"></font>1.Alvorada na Serra
+<font size="20"/>1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
@@ -10050,14 +10050,6 @@ OSAP/2023.02
             <linked>
               </linked>
             </Clef>
-          <BarLine>
-            <subtype>end</subtype>
-            <linked>
-              <location>
-                <fractions>1/1</fractions>
-                </location>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -10116,7 +10108,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"></font>II- Intermedio</text>
+          <text><font size="20"/>II- Intermedio</text>
           </Text>
         </TBox>
       <Measure>
@@ -10667,18 +10659,15 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linked>
               </linked>
             <durationType>eighth</durationType>
             </Rest>
-          <PlayTechAnnotation>
-            <playTechType>pizzicato</playTechType>
-            <linked>
-              </linked>
-            <text>pizz.</text>
-            </PlayTechAnnotation>
           <Chord>
             <linked>
               </linked>
@@ -10718,13 +10707,22 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
+      <Measure len="6/4">
+        <multiMeasureRest>3</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>12/4</duration>
             </Rest>
+          <location>
+            <fractions>-3/2</fractions>
+            </location>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linked>
+              </linked>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -10745,6 +10743,12 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linked>
+              </linked>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -10752,29 +10756,131 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <PlayTechAnnotation>
+            <linked>
+              </linked>
+            <visible>0</visible>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            </Dynamic>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -10787,28 +10893,447 @@ OSAP/2023.02
               </linked>
             <text>20</text>
             </RehearsalMark>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linked>
+              </linked>
+            </Clef>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>10</multiMeasureRest>
+      <Measure>
         <voice>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
-            <text>20</text>
-            </RehearsalMark>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
+            <linked>
+              </linked>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -10823,82 +11348,47 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
+            <linked>
+              </linked>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -10920,8 +11410,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
+      <Measure len="4/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -10952,9 +11442,152 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
+          <PlayTechAnnotation>
+            <linked>
+              </linked>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -10972,19 +11605,102 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>16th</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
+          <PlayTechAnnotation>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <visible>0</visible>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>41</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -13693,7 +14409,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Vivo</i></text>
+            <text><i><font size="12"/>Vivo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -13714,7 +14430,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Vivo</i></text>
+            <text><i><font size="12"/>Vivo</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -13911,7 +14627,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -13932,7 +14648,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -14200,7 +14916,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"></font>III- La Siesta</text>
+          <text><font size="20"/>III- La Siesta</text>
           </Text>
         </TBox>
       <Measure>
@@ -14970,8 +15686,7 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linked>
-              </linked>
+            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -15086,6 +15801,10 @@ OSAP/2023.02
           <BarLine>
             <subtype>end</subtype>
             <linked>
+              <score>same</score>
+              <location>
+                <staves>-6</staves>
+                </location>
               </linked>
             </BarLine>
           </voice>
@@ -15209,7 +15928,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"></font>IV - Batuque</text>
+          <text><font size="20"/>IV - Batuque</text>
           </Text>
         </TBox>
       <Measure>
@@ -21370,18 +22089,6 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>6/2</duration>
             </Rest>
-          <location>
-            <fractions>-1/1</fractions>
-            </location>
-          <BarLine>
-            <subtype>end</subtype>
-            <span>1</span>
-            <linked>
-              <location>
-                <fractions>1/1</fractions>
-                </location>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21581,8 +22288,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
+      <Measure len="6/4">
+        <multiMeasureRest>3</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -21650,15 +22357,6 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -21759,8 +22457,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
+      <Measure len="4/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -25135,8 +25833,7 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linked>
-              </linked>
+            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -25251,6 +25948,10 @@ OSAP/2023.02
           <BarLine>
             <subtype>end</subtype>
             <linked>
+              <score>same</score>
+              <location>
+                <staves>-6</staves>
+                </location>
               </linked>
             </BarLine>
           </voice>

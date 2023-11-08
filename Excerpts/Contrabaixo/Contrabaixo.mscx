@@ -4932,6 +4932,12 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -11261,8 +11267,7 @@ OSAP/2023.02
             </location>
           <BarLine>
             <subtype>end</subtype>
-            <linked>
-              </linked>
+            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -11377,6 +11382,10 @@ OSAP/2023.02
           <BarLine>
             <subtype>end</subtype>
             <linked>
+              <score>same</score>
+              <location>
+                <staves>-8</staves>
+                </location>
               </linked>
             </BarLine>
           </voice>
