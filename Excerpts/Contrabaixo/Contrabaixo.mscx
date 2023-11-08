@@ -96,7 +96,7 @@ ORCHESTRA
 3. A Sesta - Na Rede
 4. Batuque
 
-OPSAP/2023.02
+OSAP/2023.02
 </text>
           </Text>
         </TBox>
@@ -294,7 +294,7 @@ OPSAP/2023.02
                 <staves>-8</staves>
                 </location>
               </linked>
-            <text>1</text>
+            <text>1/A</text>
             </RehearsalMark>
           <Rest>
             <linked>
@@ -11384,14 +11384,10 @@ OPSAP/2023.02
       <Measure>
         <voice>
           <TimeSig>
-            <linked>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>

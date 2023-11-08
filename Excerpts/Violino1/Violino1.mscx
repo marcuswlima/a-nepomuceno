@@ -112,7 +112,7 @@ ORCHESTRA
 3. A Sesta - Na Rede
 4. Batuque
 
-OPSAP/2023.02
+OSAP/2023.02
 </text>
           </Text>
         </TBox>
@@ -294,7 +294,7 @@ OPSAP/2023.02
           <RehearsalMark>
             <linked>
               </linked>
-            <text>1</text>
+            <text>1/A</text>
             </RehearsalMark>
           <Rest>
             <linked>
@@ -316,17 +316,6 @@ OPSAP/2023.02
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linked>
-                  </linked>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>stringsHarmonic</subtype>
               <linked>
@@ -335,12 +324,34 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -356,13 +367,6 @@ OPSAP/2023.02
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Articulation>
               <subtype>stringsHarmonic</subtype>
               <linked>
@@ -371,12 +375,26 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -13115,14 +13133,10 @@ OPSAP/2023.02
       <Measure>
         <voice>
           <TimeSig>
-            <linked>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -16607,17 +16621,6 @@ OPSAP/2023.02
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linked>
-                  </linked>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>stringsHarmonic</subtype>
               <linked>
@@ -16626,12 +16629,34 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -16644,13 +16669,6 @@ OPSAP/2023.02
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Articulation>
               <subtype>stringsHarmonic</subtype>
               <linked>
@@ -16659,12 +16677,26 @@ OPSAP/2023.02
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             <Note>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -22714,14 +22746,10 @@ OPSAP/2023.02
       <Measure>
         <voice>
           <TimeSig>
-            <linked>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
