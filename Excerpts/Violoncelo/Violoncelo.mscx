@@ -2495,6 +2495,12 @@ OSAP/2023.02
               </linked>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -16587,7 +16593,7 @@ OSAP/2023.02
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>5</text>
             </RehearsalMark>
@@ -16651,6 +16657,7 @@ OSAP/2023.02
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <italic>1</italic>
             <text><i>Primo Tempo</i></text>
             </SystemText>
           <Rest>

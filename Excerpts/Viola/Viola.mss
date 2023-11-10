@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.10">
   <Style>
-    <pageWidth>11</pageWidth>
-    <pageHeight>8.5</pageHeight>
-    <pagePrintableWidth>9.82</pagePrintableWidth>
+    <pageWidth>8.5</pageWidth>
+    <pageHeight>11</pageHeight>
+    <pagePrintableWidth>7.32</pagePrintableWidth>
     <pageEvenLeftMargin>0.59</pageEvenLeftMargin>
     <pageOddLeftMargin>0.59</pageOddLeftMargin>
     <pageEvenTopMargin>0.590551</pageEvenTopMargin>
@@ -358,7 +358,7 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>6</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
