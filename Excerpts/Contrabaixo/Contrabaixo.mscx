@@ -763,6 +763,7 @@ OSAP/2023.02
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <italic>1</italic>
             <text><i>a tempo</i></text>
             </SystemText>
           <Chord>
@@ -5212,6 +5213,14 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>38/4</duration>
             </Rest>
+          <location>
+            <fractions>-13/2</fractions>
+            </location>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5262,6 +5271,11 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5271,6 +5285,7 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>G</text>
             </RehearsalMark>
@@ -5280,6 +5295,7 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <bold>0</bold>
             <italic>1</italic>
@@ -5287,6 +5303,7 @@ OSAP/2023.02
             </Tempo>
           <Rest>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -5301,10 +5318,8 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
-            <minDistance>-6.30284</minDistance>
-            <offset x="0.81228" y="-3.15032"/>
-            <frameType>2</frameType>
             <text>G</text>
             </RehearsalMark>
           <Tempo>
@@ -5313,16 +5328,15 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <bold>0</bold>
             <italic>1</italic>
-            <offset x="0.710745" y="-6.89865"/>
             <text><b></b><i>Piú Lento</i></text>
             </Tempo>
           <Rest>
-            <small>1</small>
             <durationType>measure</durationType>
-            <duration>26/4</duration>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15496,8 +15510,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="84/4">
-        <multiMeasureRest>42</multiMeasureRest>
+      <Measure len="66/4">
+        <multiMeasureRest>33</multiMeasureRest>
         <voice>
           <SystemText>
             <linked>
@@ -15848,11 +15862,36 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-8</staves>
+                </location>
+              </linked>
+            <text>17</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="18/4">
+        <multiMeasureRest>9</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-8</staves>
+                </location>
+              </linked>
+            <text>17</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>18/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -16632,6 +16671,14 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-8</staves>
+                </location>
+              </linked>
+            <text>21</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
