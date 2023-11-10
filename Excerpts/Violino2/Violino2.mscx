@@ -14965,8 +14965,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="60/4">
-        <multiMeasureRest>20</multiMeasureRest>
+      <Measure len="27/4">
+        <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
             <linked>
@@ -14988,6 +14988,9 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
+          <location>
+            <fractions>-33/4</fractions>
+            </location>
           <BarLine>
             </BarLine>
           </voice>
@@ -15074,12 +15077,45 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>4</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="24/4">
+        <multiMeasureRest>8</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>4</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>33/4</duration>
+            </Rest>
+          <location>
+            <fractions>-9/4</fractions>
+            </location>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15150,12 +15186,27 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <text>5</text>
+            </RehearsalMark>
           <Rest>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -15164,72 +15215,54 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <TimeSig>
+            <subtype>1</subtype>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <SystemText>
             <linked>
               <location>
                 <staves>-2</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
-            <italic>1</italic>
             <text><i>Primo Tempo</i></text>
             </SystemText>
           <Rest>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <SystemText>
             <linked>
               <location>
                 <staves>-2</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
-            <italic>1</italic>
             <text><i>Primo Tempo</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
-            <duration>36/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15239,7 +15272,26 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -15249,7 +15301,16 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="28/4">
+        <multiMeasureRest>7</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>32/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15259,7 +15320,7 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15269,7 +15330,7 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15279,7 +15340,7 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15289,7 +15350,7 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15299,7 +15360,7 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15309,37 +15370,53 @@ OSAP/2023.02
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <RehearsalMark>
             <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <linked>
-              <score>same</score>
               <location>
                 <staves>-2</staves>
                 </location>
               </linked>
-            </BarLine>
+            <text>6</text>
+            </RehearsalMark>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>6</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -15376,11 +15453,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>section</subtype>
-          </LayoutBreak>
+      <Measure len="16/4">
+        <multiMeasureRest>4</multiMeasureRest>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
@@ -15394,9 +15468,15 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>20/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/1</fractions>
+            </location>
           <BarLine>
             <subtype>end</subtype>
             <linked>
+              <location>
+                <fractions>1/1</fractions>
+                </location>
               </linked>
             </BarLine>
           </voice>
@@ -15436,6 +15516,11 @@ OSAP/2023.02
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <linked>
               </linked>
@@ -16809,11 +16894,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>17</text>
             </RehearsalMark>
           <Rest>
@@ -16829,6 +16910,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-2</staves>
                 </location>
@@ -17237,17 +17319,10 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <score>same</score>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>Q</text>
             </RehearsalMark>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -17257,11 +17332,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>21</text>
             </RehearsalMark>
           <Rest>
@@ -17277,6 +17348,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-2</staves>
                 </location>
@@ -25495,8 +25567,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="60/4">
-        <multiMeasureRest>20</multiMeasureRest>
+      <Measure len="27/4">
+        <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
             <sigN>3</sigN>
@@ -25506,6 +25578,9 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
+          <location>
+            <fractions>-33/4</fractions>
+            </location>
           <BarLine>
             </BarLine>
           </voice>
@@ -25600,126 +25675,20 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="24/4">
+        <multiMeasureRest>8</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>36/4</duration>
+            <duration>33/4</duration>
             </Rest>
+          <location>
+            <fractions>-9/4</fractions>
+            </location>
           <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
+            <subtype>double</subtype>
+            <linked>
+              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -25791,55 +25760,192 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
           <BarLine>
-            <subtype>end</subtype>
+            <subtype>double</subtype>
             <linked>
-              <score>same</score>
-              <location>
-                <staves>-2</staves>
-                </location>
               </linked>
             </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="28/4">
+        <multiMeasureRest>7</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>32/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -25876,8 +25982,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
+      <Measure len="16/4">
+        <multiMeasureRest>4</multiMeasureRest>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
@@ -25888,9 +25994,15 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>20/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/1</fractions>
+            </location>
           <BarLine>
             <subtype>end</subtype>
             <linked>
+              <location>
+                <fractions>1/1</fractions>
+                </location>
               </linked>
             </BarLine>
           </voice>
@@ -25927,6 +26039,11 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <linked>
               </linked>
