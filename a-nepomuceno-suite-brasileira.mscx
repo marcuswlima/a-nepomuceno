@@ -18,8 +18,8 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">https://musescore.com/user/17075846/scores/12801394</metaTag>
-    <metaTag name="sourceRevisionId">24359368</metaTag>
+    <metaTag name="source">https://musescore.com/user/17075846/scores/12986749</metaTag>
+    <metaTag name="sourceRevisionId">24904957</metaTag>
     <metaTag name="subtitle">Subtítulo</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -436,16 +436,16 @@
           <linkedMain/>
           <style>frame</style>
           <align>center,top</align>
-          <text><font size="67"></font>
+          <text><font size="67"/>
 Série Brazileira
 
-<font size="20"></font>para 
+<font size="20"/>para 
 ORCHESTRA
 
-<font size="23"></font>Por
-<font size="38"></font>Alberto Nepomuceno
+<font size="23"/>Por
+<font size="38"/>Alberto Nepomuceno
 
-<font size="20"></font>1.Alvorada na Serra
+<font size="20"/>1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
@@ -466,9 +466,21 @@ OSAP/2023.02
         <Text>
           <linkedMain/>
           <style>composer</style>
-          <text>A. Nepomuceno</text>
+          <text>A. Nepomuceno
+1864 - 1920</text>
           </Text>
         </VBox>
+      <TBox>
+        <height>1</height>
+        <linkedMain/>
+        <Text>
+          <linkedMain/>
+          <style>frame</style>
+          <size>20</size>
+          <align>center,top</align>
+          <text><font size="20"/>I Madrugada na Serra</text>
+          </Text>
+        </TBox>
       <Measure>
         <voice>
           <KeySig>
@@ -2967,10 +2979,6 @@ OSAP/2023.02
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -7010,7 +7018,7 @@ OSAP/2023.02
           <size>20</size>
           <align>center,top</align>
           <offset x="0" y="-0.316561"/>
-          <text><font size="20"></font>II- Intermedio</text>
+          <text><font size="20"/>II- Intermedio</text>
           </Text>
         </TBox>
       <Measure>
@@ -9553,7 +9561,7 @@ OSAP/2023.02
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin16</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -9949,7 +9957,7 @@ OSAP/2023.02
             </RehearsalMark>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin16</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -13035,60 +13043,678 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <offset x="0.146627" y="0.0674501"/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
             </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>84</pitch>
+              <tpc>26</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>84</pitch>
+              <tpc>26</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
             </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>90</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <linkedMain/>
             <durationType>measure</durationType>
@@ -14600,7 +15226,7 @@ OSAP/2023.02
             <size>12</size>
             <italic>1</italic>
             <offset x="-2.04682" y="-1.87207"/>
-            <text><i><font size="12"></font>Vivo</i></text>
+            <text><i><font size="12"/>Vivo</i></text>
             </SystemText>
           <Rest>
             <linkedMain/>
@@ -14760,7 +15386,7 @@ OSAP/2023.02
             <linkedMain/>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linkedMain/>
@@ -14989,7 +15615,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"></font>III- La Siesta</text>
+          <text><font size="20"/>III- La Siesta</text>
           </Text>
         </TBox>
       <Measure>
@@ -16817,7 +17443,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"></font>IV - Batuque</text>
+          <text><font size="20"/>IV - Batuque</text>
           </Text>
         </TBox>
       <Measure>
@@ -20210,10 +20836,6 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -28988,10 +29610,6 @@ OSAP/2023.02
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -35288,7 +35906,7 @@ OSAP/2023.02
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin16</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -35420,10 +36038,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
@@ -35540,10 +36160,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
@@ -35743,10 +36365,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
@@ -38297,10 +38921,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -38480,10 +39106,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
@@ -38642,60 +39270,692 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>77</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
             </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>77</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>77</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>77</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>75</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>77</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
             </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>77</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>77</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o4 x="0" y="5.73018e-16"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o4 x="0" y="5.73018e-16"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o4 x="0" y="5.73018e-16"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <linkedMain/>
             <durationType>measure</durationType>
@@ -45089,10 +46349,6 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -54978,10 +56234,6 @@ OSAP/2023.02
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -62268,10 +63520,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -63597,10 +64851,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -63653,10 +64909,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
@@ -63782,29 +65040,311 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -67908,7 +69448,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -67921,7 +69461,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -68875,7 +70415,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -68889,7 +70429,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -68903,7 +70443,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69062,7 +70602,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69076,7 +70616,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69090,7 +70630,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69104,7 +70644,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69585,7 +71125,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69713,7 +71253,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69727,7 +71267,7 @@ OSAP/2023.02
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69930,7 +71470,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69948,7 +71488,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -69966,7 +71506,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70463,7 +72003,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70476,7 +72016,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70519,7 +72059,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70562,7 +72102,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70575,7 +72115,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70717,7 +72257,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70730,7 +72270,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70747,7 +72287,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70776,53 +72316,6 @@ OSAP/2023.02
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
@@ -70888,7 +72381,54 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70901,7 +72441,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70918,7 +72458,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70935,7 +72475,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70948,7 +72488,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70965,7 +72505,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -70978,7 +72518,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71075,7 +72615,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71088,7 +72628,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71105,7 +72645,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71118,7 +72658,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71185,7 +72725,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71198,7 +72738,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71215,7 +72755,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71275,7 +72815,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71288,7 +72828,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71331,63 +72871,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Articulation>
               <subtype>articStaccatoBelow</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71448,14 +72932,10 @@ OSAP/2023.02
               </Articulation>
             <Note>
               <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -71467,6 +72947,19 @@ OSAP/2023.02
               <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
@@ -71524,7 +73017,54 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71537,7 +73077,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71554,7 +73094,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71695,7 +73235,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71708,7 +73248,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71725,7 +73265,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71742,7 +73282,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71755,7 +73295,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71772,7 +73312,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71785,7 +73325,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71886,7 +73426,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71899,7 +73439,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71916,7 +73456,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71929,7 +73469,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -71996,7 +73536,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72009,7 +73549,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72026,7 +73566,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72086,7 +73626,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72099,7 +73639,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72142,7 +73682,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72185,7 +73725,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72198,7 +73738,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72570,7 +74110,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72583,7 +74123,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72765,7 +74305,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72778,7 +74318,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72956,7 +74496,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -72969,7 +74509,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -73137,7 +74677,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -73150,7 +74690,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -73540,7 +75080,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -74020,7 +75560,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -74033,7 +75573,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -74115,7 +75655,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -74128,7 +75668,7 @@ OSAP/2023.02
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -77270,10 +78810,6 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78969,10 +80505,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -79488,6 +81026,7 @@ OSAP/2023.02
             </Dynamic>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin32</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsDownBow</subtype>
@@ -79501,10 +81040,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -79557,10 +81098,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
@@ -79686,29 +81229,304 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>65</pitch>
+              <tpc>25</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -86366,10 +88184,6 @@ OSAP/2023.02
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -94147,12 +95961,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94210,12 +96024,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94273,12 +96087,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94336,12 +96150,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94399,12 +96213,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94462,12 +96276,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94525,12 +96339,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94588,12 +96402,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94651,12 +96465,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -94714,12 +96528,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -96105,7 +97919,7 @@ OSAP/2023.02
             </Dynamic>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin16</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -96247,37 +98061,130 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <BeamMode>begin16</BeamMode>
+            <durationType>eighth</durationType>
             </Rest>
+          <Rest>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
             </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -101955,10 +103862,6 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -110512,10 +112415,6 @@ OSAP/2023.02
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -113621,6 +115520,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -113895,12 +115795,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
@@ -113910,6 +115810,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -113919,10 +115820,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
@@ -114522,10 +116425,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -114558,10 +116463,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -114594,10 +116501,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -114630,10 +116539,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -115097,10 +117008,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -115135,10 +117048,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -115336,6 +117251,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -115375,6 +117291,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -115522,6 +117439,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -115561,6 +117479,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -116134,6 +118053,7 @@ OSAP/2023.02
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -116154,6 +118074,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
@@ -116479,6 +118400,7 @@ OSAP/2023.02
             </PlayTechAnnotation>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -116488,10 +118410,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -116518,10 +118442,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -116548,10 +118474,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -116578,10 +118506,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -116608,10 +118538,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -116638,10 +118570,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>

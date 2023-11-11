@@ -129,9 +129,27 @@ OSAP/2023.02
               </location>
             </linked>
           <style>composer</style>
-          <text>A. Nepomuceno</text>
+          <text>A. Nepomuceno
+1864 - 1920</text>
           </Text>
         </VBox>
+      <TBox>
+        <height>1</height>
+        <linked>
+          <location>
+            <staves>-8</staves>
+            </location>
+          </linked>
+        <Text>
+          <linked>
+            <location>
+              <staves>-8</staves>
+              </location>
+            </linked>
+          <style>frame</style>
+          <text><font size="20"/>I Madrugada na Serra</text>
+          </Text>
+        </TBox>
       <Measure>
         <voice>
           <KeySig>
@@ -150,7 +168,7 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>7</indexDiff>
+              <indexDiff>9</indexDiff>
               </linked>
             <bold>1</bold>
             <italic>1</italic>
@@ -179,7 +197,7 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>7</indexDiff>
+              <indexDiff>9</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Lentamente</b></text>
@@ -1971,11 +1989,6 @@ OSAP/2023.02
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1985,7 +1998,6 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>cl. Solo</i></text>
@@ -1993,12 +2005,10 @@ OSAP/2023.02
           <Fermata>
             <subtype>fermataAbove</subtype>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             </Fermata>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
@@ -5406,8 +5416,7 @@ OSAP/2023.02
                 <staves>-8</staves>
                 </location>
               </linked>
-            <minDistance>-6.30284</minDistance>
-            <offset x="-0.20307" y="-3.11"/>
+            <offset x="0.5" y="-6.5"/>
             <text>22</text>
             </RehearsalMark>
           <Rest>
@@ -6124,6 +6133,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -6455,13 +6465,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linked>
@@ -6473,6 +6483,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -6484,11 +6495,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin32</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linked>
@@ -7315,11 +7328,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -7357,11 +7372,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -7399,11 +7416,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -7441,11 +7460,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -8036,11 +8057,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -8082,11 +8105,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -8360,6 +8385,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -8406,6 +8432,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -8609,6 +8636,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -8663,6 +8691,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -9478,6 +9507,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsUpBow</subtype>
@@ -9502,6 +9532,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
@@ -9982,6 +10013,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -9993,11 +10025,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -10029,11 +10063,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -10065,11 +10101,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -10101,11 +10139,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -10137,11 +10177,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -10173,11 +10215,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
