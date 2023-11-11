@@ -321,7 +321,8 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
