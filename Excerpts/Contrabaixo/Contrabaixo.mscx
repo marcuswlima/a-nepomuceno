@@ -5734,6 +5734,18 @@ OSAP/2023.02
               </linked>
             <text>24</text>
             </RehearsalMark>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5771,6 +5783,13 @@ OSAP/2023.02
             <linked>
               </linked>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
