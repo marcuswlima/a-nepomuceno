@@ -84,7 +84,13 @@
           <name>stdNormal</name>
           </StaffType>
         <bracket type="0" span="9" col="0" visible="1"/>
-        <bracket type="2" span="4" col="2" visible="1"/>
+        <bracket type="2" span="2" col="2" visible="1"/>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violino</trackName>
@@ -117,45 +123,15 @@
           </Channel>
         </Instrument>
       </Part>
-    <Part id="10">
-      <Staff id="2">
+    <Part id="6">
+      <Staff id="3">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <bracket type="2" span="2" col="2" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <trackName>Violino 3</trackName>
-      <Instrument id="violin">
-        <longName>Vln Div 1</longName>
-        <shortName>Vln. Div 1</shortName>
-        <trackName>Violino</trackName>
-        <minPitchP>55</minPitchP>
-        <maxPitchP>103</maxPitchP>
-        <minPitchA>55</minPitchA>
-        <maxPitchA>88</maxPitchA>
-        <instrumentId>strings.violin</instrumentId>
-        <Channel name="arco">
-          <program value="40"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>6</midiChannel>
-          </Channel>
-        <Channel name="pizzicato">
-          <program value="45"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>7</midiChannel>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>8</midiChannel>
-          </Channel>
-        </Instrument>
-      </Part>
-    <Part id="6">
-      <Staff id="3">
+      <Staff id="4">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -191,43 +167,6 @@
           </Channel>
         </Instrument>
       </Part>
-    <Part id="11">
-      <Staff id="4">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
-          </StaffType>
-        <barLineSpan>1</barLineSpan>
-        </Staff>
-      <trackName>Violino 4</trackName>
-      <Instrument id="violin">
-        <longName>Vln Div 2</longName>
-        <shortName>Vln Div 2</shortName>
-        <trackName>Violino</trackName>
-        <minPitchP>55</minPitchP>
-        <maxPitchP>103</maxPitchP>
-        <minPitchA>55</minPitchA>
-        <maxPitchA>88</maxPitchA>
-        <instrumentId>strings.violin</instrumentId>
-        <Channel name="arco">
-          <program value="40"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>10</midiChannel>
-          </Channel>
-        <Channel name="pizzicato">
-          <program value="45"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>11</midiChannel>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>12</midiChannel>
-          </Channel>
-        </Instrument>
-      </Part>
     <Part id="7">
       <Staff id="5">
         <StaffType group="pitched">
@@ -235,6 +174,13 @@
           </StaffType>
         <defaultClef>C3</defaultClef>
         <bracket type="2" span="2" col="2" visible="1"/>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <Staff id="6">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        <defaultClef>C3</defaultClef>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Viola</trackName>
@@ -248,6 +194,7 @@
         <maxPitchA>79</maxPitchA>
         <instrumentId>strings.viola</instrumentId>
         <clef>C3</clef>
+        <clef staff="2">C3</clef>
         <Channel name="arco">
           <program value="41"/>
           <synti>Fluid</synti>
@@ -268,45 +215,6 @@
           </Channel>
         </Instrument>
       </Part>
-    <Part id="9">
-      <Staff id="6">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
-          </StaffType>
-        <defaultClef>C3</defaultClef>
-        <barLineSpan>1</barLineSpan>
-        </Staff>
-      <trackName>Viola 2</trackName>
-      <Instrument id="viola">
-        <longName>Viola Div</longName>
-        <shortName>Vl Div.</shortName>
-        <trackName>Viola</trackName>
-        <minPitchP>48</minPitchP>
-        <maxPitchP>93</maxPitchP>
-        <minPitchA>48</minPitchA>
-        <maxPitchA>79</maxPitchA>
-        <instrumentId>strings.viola</instrumentId>
-        <clef>C3</clef>
-        <Channel name="arco">
-          <program value="41"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>3</midiChannel>
-          </Channel>
-        <Channel name="pizzicato">
-          <program value="45"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>4</midiChannel>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>5</midiChannel>
-          </Channel>
-        </Instrument>
-      </Part>
     <Part id="4">
       <Staff id="7">
         <StaffType group="pitched">
@@ -314,6 +222,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         <bracket type="2" span="2" col="2" visible="1"/>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <Staff id="8">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        <defaultClef>F</defaultClef>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violoncelo</trackName>
@@ -327,6 +242,7 @@
         <maxPitchA>67</maxPitchA>
         <instrumentId>strings.cello</instrumentId>
         <clef>F</clef>
+        <clef staff="2">F</clef>
         <Channel name="arco">
           <program value="42"/>
           <synti>Fluid</synti>
@@ -347,45 +263,6 @@
           </Channel>
         </Instrument>
       </Part>
-    <Part id="8">
-      <Staff id="8">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
-          </StaffType>
-        <defaultClef>F</defaultClef>
-        <barLineSpan>1</barLineSpan>
-        </Staff>
-      <trackName>Violoncelo 2</trackName>
-      <Instrument id="violoncello">
-        <longName>Viloncelo. Div</longName>
-        <shortName>Vc. Div</shortName>
-        <trackName>Violoncelo</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>90</maxPitchP>
-        <minPitchA>36</minPitchA>
-        <maxPitchA>67</maxPitchA>
-        <instrumentId>strings.cello</instrumentId>
-        <clef>F</clef>
-        <Channel name="arco">
-          <program value="42"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>0</midiChannel>
-          </Channel>
-        <Channel name="pizzicato">
-          <program value="45"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>1</midiChannel>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
-          <synti>Fluid</synti>
-          <midiPort>1</midiPort>
-          <midiChannel>2</midiChannel>
-          </Channel>
-        </Instrument>
-      </Part>
     <Part id="5">
       <Staff id="9">
         <StaffType group="pitched">
@@ -393,6 +270,7 @@
           </StaffType>
         <defaultConcertClef>F8vb</defaultConcertClef>
         <defaultTransposingClef>F</defaultTransposingClef>
+        <bracket type="2" span="1" col="2" visible="1"/>
         </Staff>
       <trackName>Contrabaixo</trackName>
       <Instrument id="contrabass">
@@ -454,22 +332,6 @@ OSAP/2023.02
 </text>
           </Text>
         </TBox>
-      <VBox>
-        <height>10</height>
-        <bottomGap>0</bottomGap>
-        <linkedMain/>
-        <Text>
-          <linkedMain/>
-          <style>title</style>
-          <text>Suite Brasileira</text>
-          </Text>
-        <Text>
-          <linkedMain/>
-          <style>composer</style>
-          <text>A. Nepomuceno
-1864 - 1920</text>
-          </Text>
-        </VBox>
       <TBox>
         <height>1</height>
         <linkedMain/>
@@ -588,11 +450,6 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>33</velocity>
-            <linkedMain/>
-            </Dynamic>
           <Rest>
             <linkedMain/>
             <durationType>measure</durationType>
@@ -706,9 +563,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="6.41793" y="0.770152"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -816,9 +670,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="24.0153" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1092,9 +943,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="4.19059" y="0.644707"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1148,9 +996,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="4.02942" y="0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1359,9 +1204,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="1">
-                  <o4 x="0.48353" y="-0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1506,9 +1348,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="2.0953" y="-0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1725,9 +1564,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.644707"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1805,9 +1641,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-0.161177" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1865,9 +1698,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="5.15765" y="0.96706"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2043,9 +1873,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="2.41765" y="0.222353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2111,10 +1938,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.104325"/>
-                  <o4 x="0.644707" y="0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2199,10 +2022,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="-0.322353" y="-0.1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2272,10 +2091,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="0.161177" y="0.18353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2356,9 +2171,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.161177" y="5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2452,10 +2264,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.2"/>
-                  <o4 x="-0.48353" y="0.28353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2520,10 +2328,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.2"/>
-                  <o4 x="0" y="-0.0388233"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3601,9 +3405,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="5.31883" y="-1.28941"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3652,9 +3453,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="9.18707" y="0.96706"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6990,10 +6788,8 @@ OSAP/2023.02
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
-            <linkedMain/>
             </Fermata>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
               <linkedMain/>
@@ -7001,7 +6797,6 @@ OSAP/2023.02
               <tpc>18</tpc>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
@@ -9082,11 +8877,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-15.9643" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -9164,11 +8954,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-16.4478" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -10709,11 +10494,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.28767" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -11824,9 +11604,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-4.58414e-15" y="-5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11957,9 +11734,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-4.58414e-15" y="-5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12097,9 +11871,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-4.58414e-15" y="-5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12233,9 +12004,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-4.58414e-15" y="-5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12710,10 +12478,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
@@ -12897,10 +12667,12 @@ OSAP/2023.02
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
@@ -16022,7 +15794,6 @@ OSAP/2023.02
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -17784,12 +17555,10 @@ OSAP/2023.02
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -17854,7 +17623,6 @@ OSAP/2023.02
             <linkedMain/>
             </Fermata>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -20296,11 +20064,9 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -20914,9 +20680,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.644707"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -22369,18 +22132,15 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>3</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -22706,7 +22466,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -24911,20 +24670,17 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <custom>1</custom>
             <mode>none</mode>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -25205,14 +24961,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -25367,7 +25121,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -25384,7 +25137,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -25508,12 +25260,12 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -25521,7 +25273,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -25572,14 +25323,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -25806,7 +25555,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -26272,7 +26020,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
@@ -26831,7 +26578,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27006,7 +26752,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27361,7 +27106,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27500,7 +27244,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27540,7 +27283,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27760,7 +27502,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27939,11 +27680,6 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>33</velocity>
-            <linkedMain/>
-            </Dynamic>
           <Rest>
             <linkedMain/>
             <durationType>measure</durationType>
@@ -28019,9 +27755,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28111,9 +27844,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="24.4989" y="0.96706"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28550,9 +28280,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="1">
-                  <o4 x="-0.96706" y="0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28695,9 +28422,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="2.0953" y="-0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -29377,10 +29101,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="0.161177" y="0.18353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -29458,9 +29178,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.161177" y="5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -29600,9 +29317,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="2.0953" y="0.222353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -35610,11 +35324,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-15.9643" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -35754,11 +35463,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-16.4478" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -37419,11 +37123,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.28767" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -40044,9 +39743,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -40191,9 +39887,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -40349,9 +40042,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="5.73018e-16"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -46144,11 +45834,9 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -48939,18 +48627,15 @@ OSAP/2023.02
             </Chord>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>3</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -49276,7 +48961,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -51481,20 +51165,17 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <custom>1</custom>
             <mode>none</mode>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -51775,14 +51456,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -51937,7 +51616,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -51954,7 +51632,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -52078,12 +51755,12 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -52091,7 +51768,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -52142,14 +51818,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -52376,7 +52050,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -52842,7 +52515,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
@@ -53401,7 +53073,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -53576,7 +53247,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -53931,7 +53601,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -54070,7 +53739,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -54110,7 +53778,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -54330,7 +53997,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -54770,9 +54436,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="11.1212" y="-0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -54834,9 +54497,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="10.96" y="-0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -55024,9 +54684,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="6.9306" y="0.322353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -55782,9 +55439,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="2.0953" y="-0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -56523,10 +56177,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="0.161177" y="0.18353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -56977,16 +56627,6 @@ OSAP/2023.02
               </Articulation>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -57010,16 +56650,6 @@ OSAP/2023.02
               <subtype>stringsDownBow</subtype>
               <linkedMain/>
               </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
             <Note>
               <linkedMain/>
               <pitch>66</pitch>
@@ -57046,16 +56676,6 @@ OSAP/2023.02
               <subtype>stringsDownBow</subtype>
               <linkedMain/>
               </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -57088,16 +56708,6 @@ OSAP/2023.02
               </Articulation>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
@@ -57250,9 +56860,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.513196" y="-0.659824"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -57555,9 +57162,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.513196" y="-0.659824"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58014,10 +57618,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.136445"/>
-                  <o4 x="0.805883" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58172,9 +57772,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-0.161177" y="-0.0161044"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58329,10 +57926,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.136445"/>
-                  <o4 x="0.805883" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58487,10 +58080,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="5.73018e-16"/>
-                  <o4 x="0" y="-0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58649,10 +58238,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="5.73018e-16"/>
-                  <o4 x="0.644707" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58739,10 +58324,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="5.73018e-16"/>
-                  <o4 x="0.48353" y="-0.322353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -59232,9 +58813,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="4.8353" y="0.96706"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -59305,10 +58883,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="5.73018e-16"/>
-                  <o4 x="7.09177" y="-0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -59479,9 +59053,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-0.322353" y="0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -59530,10 +59101,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.239532"/>
-                  <o4 x="0.48353" y="-0.912342"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -63763,11 +63330,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-15.9643" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -63888,11 +63450,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-16.4478" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -65256,11 +64813,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>2</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.24047"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78835,11 +78387,9 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -80050,18 +79600,106 @@ OSAP/2023.02
         <voice>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <offset x="8.5" y="-2.46375"/>
+            <linkedMain/>
+            </Fermata>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -80352,9 +79990,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="4.67412" y="1.12824"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -80603,10 +80238,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.239532"/>
-                  <o4 x="0.48353" y="-0.912342"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -81315,18 +80946,15 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>3</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -81652,7 +81280,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -82782,7 +82409,6 @@ OSAP/2023.02
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
-            <linkedMain/>
             </Clef>
           </voice>
         </Measure>
@@ -84805,20 +84431,17 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <custom>1</custom>
             <mode>none</mode>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -85099,14 +84722,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -85261,7 +84882,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -85278,7 +84898,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -85402,12 +85021,12 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -85415,7 +85034,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -85466,14 +85084,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -85700,7 +85316,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -86166,7 +85781,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
@@ -86725,7 +86339,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -86900,7 +86513,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -87255,7 +86867,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -87394,7 +87005,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -87434,7 +87044,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -87654,7 +87263,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -88727,9 +88335,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="2.0953" y="-0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -90073,10 +89678,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.126834"/>
-                  <o4 x="9.16828e-15" y="1.07282"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -90228,10 +89829,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.126834"/>
-                  <o4 x="9.16828e-15" y="1.07282"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -90383,10 +89980,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.126834"/>
-                  <o4 x="9.16828e-15" y="1.07282"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -90538,10 +90131,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.126834"/>
-                  <o4 x="9.16828e-15" y="1.07282"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -90693,9 +90282,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="1.77294" y="-1.93412"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -90847,9 +90433,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="1.77294" y="-1.93412"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -91001,10 +90584,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.145072"/>
-                  <o4 x="0.161177" y="0.48353"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -91156,9 +90735,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="20.953" y="-0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -91310,9 +90886,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.48353" y="-0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -91546,9 +91119,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.322353" y="-0.445396"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -91635,9 +91205,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.48353" y="-0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -91789,9 +91356,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.48353" y="-0.161177"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -92328,9 +91892,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-1.14604e-15"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -92703,9 +92264,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.641793" y="0.256717"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -92942,9 +92500,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93117,9 +92672,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93281,10 +92833,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="11.5523" y="-0.741793"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93391,10 +92939,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="11.809" y="-0.485076"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93501,10 +93045,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="2.82389" y="-0.998511"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93569,9 +93109,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.770152" y="2.00556e-15"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93631,10 +93168,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="2.82389" y="-0.998511"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93699,9 +93232,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.770152" y="2.00556e-15"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93761,10 +93291,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="2.82389" y="-0.998511"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93829,9 +93355,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.770152" y="2.00556e-15"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93891,10 +93414,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="2.82389" y="-0.998511"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -93959,9 +93478,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.770152" y="2.00556e-15"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -94021,10 +93537,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o4 x="2.82389" y="-0.998511"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -94089,9 +93601,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.770152" y="2.00556e-15"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -97107,6 +96616,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -97151,6 +96661,7 @@ OSAP/2023.02
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -98627,11 +98138,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.28767" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -99084,11 +98590,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>2</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.24047"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -104630,11 +104131,9 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -106572,9 +106071,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="-0.143592" y="-0.143592"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -107095,18 +106591,15 @@ OSAP/2023.02
             </Chord>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>3</concertKey>
             </KeySig>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -107432,7 +106925,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -109641,20 +109133,17 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <custom>1</custom>
             <mode>none</mode>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -109935,14 +109424,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -110097,7 +109584,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -110114,7 +109600,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -110238,12 +109723,12 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -110251,7 +109736,6 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -110302,14 +109786,12 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -110536,7 +110018,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -111002,7 +110483,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
@@ -111561,7 +111041,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -111736,7 +111215,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -112091,7 +111569,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -112230,7 +111707,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -112270,7 +111746,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -112490,7 +111965,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -116772,11 +116246,6 @@ OSAP/2023.02
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.28767" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>

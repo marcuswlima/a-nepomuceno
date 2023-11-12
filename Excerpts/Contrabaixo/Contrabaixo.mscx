@@ -100,39 +100,6 @@ OSAP/2023.02
 </text>
           </Text>
         </TBox>
-      <VBox>
-        <height>5.32588</height>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
-        <linked>
-          <location>
-            <staves>-8</staves>
-            </location>
-          </linked>
-        <Text>
-          <linked>
-            <location>
-              <staves>-8</staves>
-              </location>
-            </linked>
-          <style>title</style>
-          <text>Suite Brasileira</text>
-          </Text>
-        <Text>
-          <style>instrument_excerpt</style>
-          <text>Contrabaixo</text>
-          </Text>
-        <Text>
-          <linked>
-            <location>
-              <staves>-8</staves>
-              </location>
-            </linked>
-          <style>composer</style>
-          <text>A. Nepomuceno
-1864 - 1920</text>
-          </Text>
-        </VBox>
       <TBox>
         <height>1</height>
         <linked>
@@ -169,7 +136,7 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>9</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
             <bold>1</bold>
             <italic>1</italic>
@@ -198,7 +165,7 @@ OSAP/2023.02
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>9</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Lentamente</b></text>
