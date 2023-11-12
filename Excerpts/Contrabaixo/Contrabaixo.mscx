@@ -147,7 +147,8 @@ OSAP/2023.02
               </location>
             </linked>
           <style>frame</style>
-          <text><font size="20"/>I Madrugada na Serra</text>
+          <size>20</size>
+          <text><font size="20"></font>I Madrugada na Serra</text>
           </Text>
         </TBox>
       <Measure>

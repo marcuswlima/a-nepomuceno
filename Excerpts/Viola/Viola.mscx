@@ -178,7 +178,8 @@ OSAP/2023.02
               </location>
             </linked>
           <style>frame</style>
-          <text><font size="20"/>I Madrugada na Serra</text>
+          <size>20</size>
+          <text><font size="20"></font>I Madrugada na Serra</text>
           </Text>
         </TBox>
       <Measure>
@@ -10273,6 +10274,18 @@ OSAP/2023.02
               </linked>
             <text>19</text>
             </RehearsalMark>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -10340,6 +10353,13 @@ OSAP/2023.02
       <Measure>
         <stretch>0.3</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -10400,6 +10420,18 @@ OSAP/2023.02
       <Measure>
         <stretch>0.3</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -10460,6 +10492,13 @@ OSAP/2023.02
       <Measure>
         <stretch>0.3</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -11434,6 +11473,18 @@ OSAP/2023.02
       <Measure>
         <stretch>0.5</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -11558,6 +11609,25 @@ OSAP/2023.02
       <Measure>
         <stretch>0.5</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -11689,6 +11759,13 @@ OSAP/2023.02
               </linked>
             <text>21</text>
             </RehearsalMark>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -13998,6 +14075,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
             <linked>
@@ -14023,6 +14101,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -14040,6 +14119,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -14057,6 +14137,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -14074,6 +14155,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -14091,6 +14173,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -34069,6 +34152,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -34086,6 +34170,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -34103,6 +34188,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -34120,6 +34206,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -34137,6 +34224,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>
@@ -34154,6 +34242,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <StaffText>
             <linked>

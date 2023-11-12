@@ -147,7 +147,8 @@ OSAP/2023.02
           <linked>
             </linked>
           <style>frame</style>
-          <text><font size="20"/>I Madrugada na Serra</text>
+          <size>20</size>
+          <text><font size="20"></font>I Madrugada na Serra</text>
           </Text>
         </TBox>
       <Measure>
@@ -1215,8 +1216,8 @@ OSAP/2023.02
             <Note>
               <linked>
                 </linked>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           </voice>
@@ -10113,6 +10114,12 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -10191,6 +10198,12 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -24085,11 +24098,8 @@ OSAP/2023.02
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>70</pitch>
-              <tpc>24</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
