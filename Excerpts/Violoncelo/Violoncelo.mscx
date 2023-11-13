@@ -12317,6 +12317,7 @@ OSAP/2023.02
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
