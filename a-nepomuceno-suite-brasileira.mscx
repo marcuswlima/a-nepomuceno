@@ -340,7 +340,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>I Madrugada na Serra</text>
+          <text><b><font size="20"/>I Madrugada na Serra</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -6816,7 +6816,7 @@ OSAP/2023.02
           <size>20</size>
           <align>center,top</align>
           <offset x="0" y="-0.316561"/>
-          <text><font size="20"/>II- Intermedio</text>
+          <text><b><font size="20"/>II- Intermedio</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -17521,7 +17521,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>III- La Siesta</text>
+          <text><b><font size="20"/>III- La Siesta</b></text>
           </Text>
         </TBox>
       <Measure>

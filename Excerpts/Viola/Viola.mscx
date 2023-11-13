@@ -118,7 +118,7 @@ OSAP/2023.02
             </linked>
           <style>frame</style>
           <size>20</size>
-          <text><font size="20"/>I Madrugada na Serra</text>
+          <text><b><font size="20"/>I Madrugada na Serra</b></text>
           </Text>
         </TBox>
       <Measure>
