@@ -127,16 +127,16 @@
             </linked>
           <style>frame</style>
           <align>center,top</align>
-          <text><font size="67"/>
+          <text><font size="67"></font>
 Série Brazileira
 
-<font size="20"/>para 
+<font size="20"></font>para 
 ORCHESTRA
 
-<font size="23"/>Por
-<font size="38"/>Alberto Nepomuceno
+<font size="23"></font>Por
+<font size="38"></font>Alberto Nepomuceno
 
-<font size="20"/>1.Alvorada na Serra
+<font size="20"></font>1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
@@ -161,7 +161,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>I Madrugada na Serra</text>
+          <text><font size="20"></font>I Madrugada na Serra</text>
           </Text>
         </TBox>
       <Measure>
@@ -8549,7 +8549,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>II- Intermedio</text>
+          <text><font size="20"></font>II- Intermedio</text>
           </Text>
         </TBox>
       <Measure>
@@ -9923,12 +9923,10 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>G</text>
             </RehearsalMark>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -12562,7 +12560,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>27</text>
             </RehearsalMark>
           <Rest>
@@ -13301,7 +13298,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>29</text>
             </RehearsalMark>
           <Rest>
@@ -13637,7 +13633,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>30</text>
             </RehearsalMark>
           <Rest>
@@ -14019,7 +14014,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>J</text>
             </RehearsalMark>
           <Rest>
@@ -14043,7 +14037,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>31B</text>
             </RehearsalMark>
           <Rest>
@@ -14225,7 +14218,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>32B</text>
             </RehearsalMark>
           <Rest>
@@ -14329,7 +14321,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>K</text>
             </RehearsalMark>
           <Rest>
@@ -14433,7 +14424,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>33</text>
             </RehearsalMark>
           <Rest>
@@ -14537,7 +14527,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>34</text>
             </RehearsalMark>
           <Rest>
@@ -14621,12 +14610,10 @@ OSAP/2023.02
       <Measure>
         <voice>
           <SystemText>
-            <linkedMain/>
             <italic>1</italic>
             <text><i>Cellos</i></text>
             </SystemText>
           <RehearsalMark>
-            <linkedMain/>
             <text>L</text>
             </RehearsalMark>
           <Rest>
@@ -14660,7 +14647,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>35</text>
             </RehearsalMark>
           <Rest>
@@ -14764,7 +14750,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>36</text>
             </RehearsalMark>
           <Rest>
@@ -14868,7 +14853,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>37</text>
             </RehearsalMark>
           <Rest>
@@ -14962,7 +14946,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>M</text>
             </RehearsalMark>
           <Rest>
@@ -15036,10 +15019,9 @@ OSAP/2023.02
       <Measure>
         <voice>
           <SystemText>
-            <linkedMain/>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -15072,7 +15054,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>38</text>
             </RehearsalMark>
           <Rest>
@@ -15205,10 +15186,9 @@ OSAP/2023.02
       <Measure>
         <voice>
           <SystemText>
-            <linkedMain/>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -15447,7 +15427,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>III- La Siesta</text>
+          <text><font size="20"></font>III- La Siesta</text>
           </Text>
         </TBox>
       <Measure>
@@ -15902,7 +15882,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>2</text>
             </RehearsalMark>
           <Rest>
@@ -16030,13 +16009,11 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <linkedMain/>
             <italic>1</italic>
             <text><i>un poco piú presto</i></text>
             </SystemText>
           <Rest>
             <linked>
-              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -16126,7 +16103,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>4</text>
             </RehearsalMark>
           <Rest>
@@ -16207,7 +16183,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -16235,13 +16210,11 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <linkedMain/>
             <italic>1</italic>
             <text><i>Primo Tempo</i></text>
             </SystemText>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -16350,7 +16323,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text>6</text>
             </RehearsalMark>
           <Rest>
@@ -16464,7 +16436,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>IV - Batuque</text>
+          <text><font size="20"></font>IV - Batuque</text>
           </Text>
         </TBox>
       <Measure>
@@ -16476,13 +16448,11 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <linkedMain/>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
             </SystemText>
           <Rest>
             <linked>
-              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -17283,7 +17253,6 @@ OSAP/2023.02
             <concertKey>-1</concertKey>
             </KeySig>
           <SystemText>
-            <linkedMain/>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
             </SystemText>
@@ -19147,7 +19116,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
@@ -24657,7 +24625,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -25137,7 +25104,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -25654,7 +25620,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
@@ -26275,7 +26240,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -26469,7 +26433,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -26863,7 +26826,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27017,7 +26979,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27061,7 +27022,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27305,7 +27265,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -27404,7 +27363,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
@@ -38174,12 +38132,8 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -38188,23 +38142,15 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -38213,17 +38159,11 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Rest>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -38232,30 +38172,20 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             </Rest>
           </voice>
@@ -38263,17 +38193,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Rest>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <linked>
-                </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -38282,12 +38206,8 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
@@ -38297,17 +38217,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Rest>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <linked>
-                </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -38316,12 +38230,8 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
@@ -38331,25 +38241,15 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>88</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -38358,23 +38258,15 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>84</pitch>
               <tpc>26</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>86</pitch>
               <tpc>16</tpc>
               </Note>
@@ -38384,35 +38276,22 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>85</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
@@ -38422,67 +38301,43 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>85</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
@@ -38492,35 +38347,23 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
@@ -40606,7 +40449,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -41009,7 +40851,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -41454,13 +41295,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <SystemText>
             <linked>
               <score>same</score>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
@@ -41468,6 +41307,7 @@ OSAP/2023.02
           <SystemText>
             <linked>
               <score>same</score>
+              <indexDiff>-1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>(in 1)</i></text>
@@ -41996,7 +41836,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -42170,7 +42009,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -42522,7 +42360,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -42658,7 +42495,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -42700,7 +42536,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -42915,7 +42750,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -42999,7 +42833,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
@@ -48953,7 +48786,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -49433,7 +49265,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -49950,7 +49781,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <KeySig>
-            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <Rest>
@@ -50571,7 +50401,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -50765,7 +50594,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -51159,7 +50987,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -51313,7 +51140,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -51357,7 +51183,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -51601,7 +51426,6 @@ OSAP/2023.02
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
