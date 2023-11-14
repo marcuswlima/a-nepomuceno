@@ -20596,6 +20596,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -20606,6 +20607,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -20683,6 +20685,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -20693,6 +20696,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -20770,6 +20774,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -20780,6 +20785,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -20857,6 +20863,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -20867,6 +20874,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -20944,6 +20952,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -20954,6 +20963,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -21031,6 +21041,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -21041,6 +21052,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -21118,6 +21130,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -21128,6 +21141,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -21205,6 +21219,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -21215,6 +21230,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -21292,6 +21308,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-2</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -21302,6 +21319,7 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -22947,6 +22965,14 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>14</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
@@ -23047,6 +23073,14 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>15</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
@@ -23147,6 +23181,14 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>16</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>

@@ -122,12 +122,12 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "contrabass",
+            "instrumentId": "viola",
             "out": {
                 "auxSends": [
                     {
                         "active": true,
-                        "signalAmount": 0.5
+                        "signalAmount": 0.4699999988079071
                     },
                     {
                         "active": true,
@@ -137,9 +137,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 9.300000190734863
+                "volumeDb": 0
             },
-            "partId": "5",
+            "partId": "7",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -194,12 +194,12 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "viola",
+            "instrumentId": "contrabass",
             "out": {
                 "auxSends": [
                     {
                         "active": true,
-                        "signalAmount": 0.4699999988079071
+                        "signalAmount": 0.5
                     },
                     {
                         "active": true,
@@ -209,9 +209,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 9.300000190734863
             },
-            "partId": "7",
+            "partId": "5",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
