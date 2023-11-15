@@ -15441,11 +15441,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>14</text>
             </RehearsalMark>
           <Rest>
@@ -15461,6 +15457,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -15566,11 +15563,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>15</text>
             </RehearsalMark>
           <Rest>
@@ -15586,6 +15579,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -15691,11 +15685,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>16</text>
             </RehearsalMark>
           <Rest>
@@ -15711,6 +15701,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
