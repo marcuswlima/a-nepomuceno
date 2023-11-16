@@ -20719,8 +20719,149 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -20729,28 +20870,149 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -20764,32 +21026,197 @@ OSAP/2023.02
               </linked>
             <text>K</text>
             </RehearsalMark>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
