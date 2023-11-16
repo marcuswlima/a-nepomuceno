@@ -326,6 +326,7 @@ OSAP/2023.02
             <text><i>Piu Lento</i></text>
             </SystemText>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>18/2</duration>
             </Rest>
@@ -4679,6 +4680,7 @@ OSAP/2023.02
             <text><b>Allegro</b></text>
             </SystemText>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -5319,6 +5321,7 @@ OSAP/2023.02
             <text><b></b><i>Piú Lento</i></text>
             </Tempo>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>8/4</duration>
             </Rest>
@@ -6832,6 +6835,7 @@ OSAP/2023.02
             <text>29</text>
             </RehearsalMark>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>18/4</duration>
             </Rest>
@@ -8876,6 +8880,7 @@ OSAP/2023.02
             <text>35</text>
             </RehearsalMark>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>20/4</duration>
             </Rest>
@@ -15408,7 +15413,10 @@ OSAP/2023.02
                 <staves>-8</staves>
                 </location>
               </linked>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
             <italic>1</italic>
+            <offset x="0" y="1.82291"/>
             <text><i>(in 1)</i></text>
             </SystemText>
           <Rest>
@@ -15465,6 +15473,7 @@ OSAP/2023.02
             <text>14</text>
             </RehearsalMark>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
@@ -15587,6 +15596,7 @@ OSAP/2023.02
             <text>15</text>
             </RehearsalMark>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>40/4</duration>
             </Rest>
@@ -15709,6 +15719,7 @@ OSAP/2023.02
             <text>16</text>
             </RehearsalMark>
           <Rest>
+            <small>1</small>
             <durationType>measure</durationType>
             <duration>20/4</duration>
             </Rest>
