@@ -358,7 +358,7 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>6</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
@@ -370,7 +370,7 @@
     <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
-    <hideEmptyStaves>0</hideEmptyStaves>
+    <hideEmptyStaves>1</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
