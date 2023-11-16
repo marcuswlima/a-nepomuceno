@@ -8827,9 +8827,8 @@ OSAP/2023.02
             <text><i>Cellos</i></text>
             </SystemText>
           <Rest>
-            <small>1</small>
             <durationType>measure</durationType>
-            <duration>24/4</duration>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
