@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.10">
   <Style>
-    <pageWidth>8.27</pageWidth>
-    <pageHeight>11.69</pageHeight>
-    <pagePrintableWidth>7.0889</pagePrintableWidth>
+    <pageWidth>8.37</pageWidth>
+    <pageHeight>12.04</pageHeight>
+    <pagePrintableWidth>7.19</pagePrintableWidth>
     <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
     <pageOddLeftMargin>0.590551</pageOddLeftMargin>
     <pageEvenTopMargin>0.590551</pageEvenTopMargin>
@@ -133,11 +133,11 @@
     <noteBarDistance>1.5</noteBarDistance>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
-    <mrNumberSeries>0</mrNumberSeries>
-    <mrNumberEveryXMeasures>4</mrNumberEveryXMeasures>
+    <mrNumberSeries>1</mrNumberSeries>
+    <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
     <mrNumberSeriesWithParentheses>1</mrNumberSeriesWithParentheses>
-    <oneMeasureRepeatShow1>0</oneMeasureRepeatShow1>
-    <fourMeasureRepeatShowExtenders>0</fourMeasureRepeatShowExtenders>
+    <oneMeasureRepeatShow1>1</oneMeasureRepeatShow1>
+    <fourMeasureRepeatShowExtenders>1</fourMeasureRepeatShowExtenders>
     <staffLineWidth>0.11</staffLineWidth>
     <ledgerLineWidth>0.16</ledgerLineWidth>
     <ledgerLineLength>0.33</ledgerLineLength>

@@ -133,8 +133,8 @@
     <noteBarDistance>1.5</noteBarDistance>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
-    <mrNumberSeries>0</mrNumberSeries>
-    <mrNumberEveryXMeasures>4</mrNumberEveryXMeasures>
+    <mrNumberSeries>1</mrNumberSeries>
+    <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
     <mrNumberSeriesWithParentheses>1</mrNumberSeriesWithParentheses>
     <oneMeasureRepeatShow1>0</oneMeasureRepeatShow1>
     <fourMeasureRepeatShowExtenders>0</fourMeasureRepeatShowExtenders>

@@ -75,16 +75,16 @@
             </linked>
           <style>frame</style>
           <align>center,top</align>
-          <text><font size="67"/>
+          <text><font size="67"></font>
 Série Brazileira
 
-<font size="20"/>para 
+<font size="20"></font>para 
 ORCHESTRA
 
-<font size="23"/>Por
-<font size="38"/>Alberto Nepomuceno
+<font size="23"></font>Por
+<font size="38"></font>Alberto Nepomuceno
 
-<font size="20"/>1.Alvorada na Serra
+<font size="20"></font>1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
@@ -104,7 +104,7 @@ OSAP/2023.02
           <size>20</size>
           <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="20"/>I Madrugada na Serra</b></text>
+          <text><b><font size="20"></font>I Madrugada na Serra</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -7577,7 +7577,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>II- Intermedio</text>
+          <text><font size="20"></font>II- Intermedio</text>
           </Text>
         </TBox>
       <Measure>
@@ -25169,6 +25169,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -25180,6 +25181,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -25191,6 +25193,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -25202,6 +25205,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -25627,6 +25631,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -25978,7 +25983,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -25997,7 +26002,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -26183,7 +26188,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -26202,7 +26207,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -26462,7 +26467,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>III- La Siesta</text>
+          <text><font size="20"></font>III- La Siesta</text>
           </Text>
         </TBox>
       <Measure>
@@ -28640,7 +28645,7 @@ OSAP/2023.02
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>IV - Batuque</text>
+          <text><font size="20"></font>IV - Batuque</text>
           </Text>
         </TBox>
       <Measure>
@@ -30173,8 +30178,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -30200,31 +30205,11 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>20</text>
-            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
-            <text>20</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -30313,8 +30298,9 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="14/4">
+        <multiMeasureRest>7</multiMeasureRest>
+        <endRepeat>2</endRepeat>
         <voice>
           <RehearsalMark>
             <linked>
@@ -30340,32 +30326,11 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>21</text>
-            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="10/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <endRepeat>2</endRepeat>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
-            <text>21</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>10/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -30464,33 +30429,28 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>21</text>
-            </RehearsalMark>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="6/4">
+        <multiMeasureRest>3</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
-            <text>21</text>
+            <text>Q</text>
             </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>6/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -39208,6 +39168,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -41870,8 +41831,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -41899,15 +41860,6 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -41988,8 +41940,8 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="14/4">
+        <multiMeasureRest>7</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -42014,15 +41966,6 @@ OSAP/2023.02
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="10/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>10/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -42116,6 +42059,15 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -42123,15 +42075,6 @@ OSAP/2023.02
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
