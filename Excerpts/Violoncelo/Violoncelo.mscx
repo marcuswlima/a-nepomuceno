@@ -25,6 +25,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">Violoncelo</metaTag>
     <Part id="4">
       <Staff id="1">
@@ -21689,23 +21690,6 @@ Alberto Nepomuceno
             </Chord>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
-            <text>1</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Chord>
@@ -21715,6 +21699,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
@@ -21741,9 +21728,6 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
@@ -22039,23 +22023,6 @@ Alberto Nepomuceno
             </MeasureRepeat>
           </voice>
         </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
-            <text>2</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>40/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -22075,6 +22042,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>54</pitch>
               <tpc>20</tpc>
               </Note>
@@ -22164,6 +22134,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>54</pitch>
               <tpc>20</tpc>
               </Note>
@@ -22182,6 +22155,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
@@ -22399,6 +22375,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
@@ -22440,6 +22419,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>56</pitch>
               <tpc>22</tpc>
               </Note>
@@ -22451,9 +22433,6 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
@@ -22495,9 +22474,6 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>56</pitch>
               <tpc>22</tpc>
               </Note>
@@ -22505,6 +22481,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
             <linked>
@@ -32460,15 +32437,6 @@ Alberto Nepomuceno
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -32523,6 +32491,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -32546,6 +32517,9 @@ Alberto Nepomuceno
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
@@ -32690,15 +32664,6 @@ Alberto Nepomuceno
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>40/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
