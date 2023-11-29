@@ -10337,6 +10337,9 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <linked>
@@ -10526,6 +10529,9 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -10831,8 +10837,8 @@ Alberto Nepomuceno
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>8</multiMeasureRest>
+      <Measure len="15/4">
+        <multiMeasureRest>5</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -10846,9 +10852,15 @@ Alberto Nepomuceno
             <durationType>measure</durationType>
             <duration>24/4</duration>
             </Rest>
+          <location>
+            <fractions>-9/4</fractions>
+            </location>
           <BarLine>
             <subtype>double</subtype>
             <linked>
+              <location>
+                <fractions>9/4</fractions>
+                </location>
               </linked>
             </BarLine>
           </voice>
@@ -10895,59 +10907,71 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <RehearsalMark>
+          <SystemText>
             <linked>
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
-            <text>5</text>
-            </RehearsalMark>
+            <text><i>Calmo</i></text>
+            </SystemText>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="9/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-8</staves>
+                </location>
+              </linked>
+            <text><i>Calmo</i></text>
+            </SystemText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>9/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             </Fermata>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -11254,6 +11278,9 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linked>
