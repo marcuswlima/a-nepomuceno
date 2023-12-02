@@ -10908,11 +10908,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text><i>Calmo</i></text>
             </SystemText>
           <Rest>
@@ -10928,10 +10924,12 @@ Alberto Nepomuceno
         <voice>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
               </linked>
+            <italic>1</italic>
             <text><i>Calmo</i></text>
             </SystemText>
           <Rest>
@@ -10967,12 +10965,8 @@ Alberto Nepomuceno
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
-            <linked>
-              </linked>
             </Fermata>
           <Rest>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
