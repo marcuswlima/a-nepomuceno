@@ -22559,17 +22559,31 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
+            <linked>
+              </linked>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -22577,8 +22591,12 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
+              <linked>
+                </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -22587,9 +22605,13 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -22600,8 +22622,12 @@ OSAP/2023.02
           </LayoutBreak>
         <voice>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
+              <linked>
+                </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -22610,9 +22636,13 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
@@ -23895,6 +23925,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23906,6 +23937,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23917,6 +23949,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -24110,14 +24143,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <score>same</score>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
             <text>10</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -24130,6 +24158,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -24141,6 +24170,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -24152,6 +24182,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -24163,6 +24194,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -33313,17 +33345,31 @@ OSAP/2023.02
             <playTechType>pizzicato</playTechType>
             <text>pizz.</text>
             </PlayTechAnnotation>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
+            <linked>
+              </linked>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -33331,16 +33377,24 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -33348,8 +33402,12 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
+              <linked>
+                </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -33358,9 +33416,13 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -33368,8 +33430,12 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
+              <linked>
+                </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -33378,9 +33444,13 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             </Rest>
           </voice>

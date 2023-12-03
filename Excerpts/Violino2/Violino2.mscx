@@ -28497,43 +28497,94 @@ OSAP/2023.02
           <PlayTechAnnotation>
             <text>arco</text>
             </PlayTechAnnotation>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            </Dynamic>
           <Chord>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
             <durationType>half</durationType>
-            <Ornament>
-              <subtype>ornamentTrill</subtype>
-              </Ornament>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <linked>
+                <indexDiff>2</indexDiff>
+                </linked>
               </Articulation>
+            <Ornament>
+              <subtype>ornamentTrill</subtype>
+              <linked>
+                <indexDiff>2</indexDiff>
+                </linked>
+              </Ornament>
             <Note>
+              <linked>
+                <indexDiff>2</indexDiff>
+                </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  </location>
+                </next>
+              </Spanner>
             <appoggiatura/>
             <Note>
+              <linked>
+                </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>16th</durationType>
             <appoggiatura/>
             <Note>
+              <linked>
+                </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
+              <linked>
+                </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -28543,43 +28594,89 @@ OSAP/2023.02
           <PlayTechAnnotation>
             <text>arco</text>
             </PlayTechAnnotation>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
+            <linked>
+              </linked>
             <durationType>half</durationType>
-            <Ornament>
-              <subtype>ornamentTrill</subtype>
-              </Ornament>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <linked>
+                </linked>
               </Articulation>
+            <Ornament>
+              <subtype>ornamentTrill</subtype>
+              <linked>
+                </linked>
+              </Ornament>
             <Note>
+              <linked>
+                </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  </location>
+                </next>
+              </Spanner>
             <appoggiatura/>
             <Note>
+              <linked>
+                </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>16th</durationType>
             <appoggiatura/>
             <Note>
+              <linked>
+                </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
+              <linked>
+                </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -28591,10 +28688,14 @@ OSAP/2023.02
             <velocity>49</velocity>
             </Dynamic>
           <Chord>
+            <linked>
+              </linked>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <linked>
+                  </linked>
                 </Slur>
               <next>
                 <location>
@@ -28602,33 +28703,54 @@ OSAP/2023.02
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
+              <linked>
+                </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>16th</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <prev>
@@ -28638,6 +28760,8 @@ OSAP/2023.02
                 </prev>
               </Spanner>
             <Note>
+              <linked>
+                </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -28646,11 +28770,27 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
+            <linked>
+              </linked>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <linked>
+                  </linked>
                 </Slur>
               <next>
                 <location>
@@ -28658,33 +28798,54 @@ OSAP/2023.02
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
+              <linked>
+                </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>16th</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>eighth</durationType>
             <Note>
+              <linked>
+                </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linked>
+              </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <prev>
@@ -28694,6 +28855,8 @@ OSAP/2023.02
                 </prev>
               </Spanner>
             <Note>
+              <linked>
+                </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -28702,6 +28865,13 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -31650,12 +31820,6 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <score>same</score>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>10</text>
             </RehearsalMark>
           <Chord>
