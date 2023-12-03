@@ -26425,6 +26425,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -26436,6 +26437,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27975,6 +27977,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27986,6 +27989,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
