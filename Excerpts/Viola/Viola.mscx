@@ -23441,7 +23441,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -23453,7 +23452,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -23593,7 +23591,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -23605,7 +23602,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -26395,7 +26391,6 @@ OSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Primo Tempo</i></text>
@@ -26424,6 +26419,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -26435,6 +26431,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27618,7 +27615,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27630,7 +27626,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27976,6 +27971,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27987,6 +27983,7 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -28378,7 +28375,6 @@ OSAP/2023.02
           <location>
             <staves>-4</staves>
             </location>
-          <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <style>frame</style>
@@ -28399,7 +28395,7 @@ OSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>3</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
@@ -32063,7 +32059,6 @@ OSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
@@ -32073,7 +32068,6 @@ OSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>(in 1)</i></text>
@@ -34796,7 +34790,6 @@ OSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>Q</text>
             </RehearsalMark>
@@ -37658,7 +37651,6 @@ OSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>S</text>
             </RehearsalMark>
@@ -38327,7 +38319,6 @@ OSAP/2023.02
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Furioso</i></text>

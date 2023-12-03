@@ -10982,12 +10982,7 @@ Alberto Nepomuceno
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <italic>1</italic>
             <text><i>Primo Tempo</i></text>
             </SystemText>
@@ -11013,10 +11008,10 @@ Alberto Nepomuceno
             </TimeSig>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Primo Tempo</i></text>
@@ -11120,11 +11115,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>6</text>
             </RehearsalMark>
           <Rest>
@@ -11140,6 +11131,7 @@ Alberto Nepomuceno
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -11324,12 +11316,6 @@ Alberto Nepomuceno
         </Measure>
       <TBox>
         <height>1</height>
-        <linked>
-          <location>
-            <staves>-8</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
         <Text>
           <style>frame</style>
           <text>IV - Batuque</text>
@@ -11339,18 +11325,12 @@ Alberto Nepomuceno
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
+            <linkedMain/>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
             </SystemText>
@@ -11374,10 +11354,10 @@ Alberto Nepomuceno
             </TimeSig>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>3</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
@@ -11481,11 +11461,6 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>7</text>
             </RehearsalMark>
           <Rest>
@@ -11680,11 +11655,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>8</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -11911,11 +11881,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>9</text>
             </RehearsalMark>
           <Dynamic>
@@ -12133,13 +12098,14 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>O</text>
             </RehearsalMark>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -12220,11 +12186,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>10</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -12411,11 +12372,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>11</text>
             </RehearsalMark>
           <Rest>
@@ -12431,6 +12388,7 @@ Alberto Nepomuceno
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -12605,11 +12563,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>12</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -12838,11 +12791,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>13</text>
             </RehearsalMark>
           <Rest>
@@ -12858,6 +12807,7 @@ Alberto Nepomuceno
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -12938,22 +12888,12 @@ Alberto Nepomuceno
             <concertKey>-1</concertKey>
             </KeySig>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
             </SystemText>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <italic>1</italic>
             <text><i>(in 1)</i></text>
             </SystemText>
@@ -12971,20 +12911,20 @@ Alberto Nepomuceno
         <voice>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
             </SystemText>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>(in 1)</i></text>
@@ -13018,11 +12958,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>14</text>
             </RehearsalMark>
           <Rest>
@@ -13038,6 +12974,7 @@ Alberto Nepomuceno
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -13143,11 +13080,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>15</text>
             </RehearsalMark>
           <Rest>
@@ -13163,6 +13096,7 @@ Alberto Nepomuceno
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -13268,11 +13202,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>16</text>
             </RehearsalMark>
           <Rest>
@@ -13288,6 +13218,7 @@ Alberto Nepomuceno
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -13393,11 +13324,7 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>17</text>
             </RehearsalMark>
           <Rest>
@@ -13413,6 +13340,7 @@ Alberto Nepomuceno
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-8</staves>
                 </location>
@@ -13509,11 +13437,6 @@ Alberto Nepomuceno
         <startRepeat/>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>P</text>
             </RehearsalMark>
           <PlayTechAnnotation>
@@ -13556,11 +13479,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>18</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -13684,11 +13602,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>19</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -13840,22 +13753,14 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <text>Q</text>
             </RehearsalMark>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>29</pitch>
               <tpc>13</tpc>
@@ -13896,11 +13801,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>22</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14024,11 +13924,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>23</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14171,11 +14066,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>24</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14311,11 +14201,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>25</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14367,11 +14252,6 @@ Alberto Nepomuceno
         <startRepeat/>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>R</text>
             </RehearsalMark>
           <Chord>
@@ -14447,11 +14327,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>26</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14479,11 +14354,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>28</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14583,11 +14453,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>27</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14616,11 +14481,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>29</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14693,28 +14553,19 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <text>S</text>
             </RehearsalMark>
           <PlayTechAnnotation>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>arco</text>
             </PlayTechAnnotation>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>29</pitch>
               <tpc>13</tpc>
@@ -14809,11 +14660,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>30</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -14962,11 +14808,6 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>31</text>
             </RehearsalMark>
           <Chord>
@@ -15020,12 +14861,6 @@ Alberto Nepomuceno
       <Measure>
         <voice>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <italic>1</italic>
             <text><i>Furioso</i></text>
             </SystemText>
@@ -15033,17 +14868,14 @@ Alberto Nepomuceno
             <subtype>ff</subtype>
             <velocity>112</velocity>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>29</pitch>
               <tpc>13</tpc>
@@ -15150,11 +14982,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>32</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -15278,11 +15105,6 @@ Alberto Nepomuceno
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
             <text>33</text>
             </RehearsalMark>
           <MeasureRepeat>

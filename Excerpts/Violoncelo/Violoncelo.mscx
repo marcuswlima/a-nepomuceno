@@ -22945,12 +22945,7 @@ OSAP/2023.02
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <italic>1</italic>
             <text><i>Primo Tempo</i></text>
             </SystemText>
@@ -22976,10 +22971,10 @@ OSAP/2023.02
             </TimeSig>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Primo Tempo</i></text>
@@ -23101,11 +23096,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>6</text>
             </RehearsalMark>
           <Rest>
@@ -23121,6 +23112,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -23259,12 +23251,6 @@ OSAP/2023.02
         </Measure>
       <TBox>
         <height>1</height>
-        <linked>
-          <location>
-            <staves>-6</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
         <Text>
           <style>frame</style>
           <text>IV - Batuque</text>
@@ -23274,18 +23260,12 @@ OSAP/2023.02
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>2</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
+            <linkedMain/>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
             </SystemText>
@@ -23310,10 +23290,10 @@ OSAP/2023.02
             </TimeSig>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>3</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
@@ -23494,11 +23474,6 @@ OSAP/2023.02
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
             <text>7</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -23622,11 +23597,6 @@ OSAP/2023.02
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
             <text>8</text>
             </RehearsalMark>
           <MeasureRepeat>
@@ -23768,6 +23738,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23837,6 +23808,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23848,13 +23820,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
             <text>9</text>
             </RehearsalMark>
           <Dynamic>
@@ -23873,6 +23841,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23884,6 +23853,7 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -23901,6 +23871,19 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23924,63 +23907,323 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
             <text>O</text>
             </RehearsalMark>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-6</staves>
+                </location>
+              </linked>
+            <text>10</text>
+            </RehearsalMark>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="10/4">
+        <multiMeasureRest>5</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>10/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <linked>
               </linked>
@@ -23992,12 +24235,8 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
-            <text>10</text>
+            <linkedMain/>
+            <text>11</text>
             </RehearsalMark>
           <Rest>
             <linked>
@@ -24012,11 +24251,12 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
               </linked>
-            <text>10</text>
+            <text>11</text>
             </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
@@ -24117,136 +24357,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
-            <text>11</text>
-            </RehearsalMark>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
-            <text>11</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>12</text>
             </RehearsalMark>
           <Rest>
@@ -24262,6 +24373,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -24357,11 +24469,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>13</text>
             </RehearsalMark>
           <Rest>
@@ -24377,6 +24485,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -24457,22 +24566,12 @@ OSAP/2023.02
             <concertKey>-1</concertKey>
             </KeySig>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
             </SystemText>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <italic>1</italic>
             <text><i>(in 1)</i></text>
             </SystemText>
@@ -24490,20 +24589,20 @@ OSAP/2023.02
         <voice>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
             </SystemText>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>(in 1)</i></text>
@@ -24537,11 +24636,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>14</text>
             </RehearsalMark>
           <Rest>
@@ -24557,6 +24652,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -24662,11 +24758,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>15</text>
             </RehearsalMark>
           <Rest>
@@ -24682,6 +24774,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -24787,11 +24880,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>16</text>
             </RehearsalMark>
           <Rest>
@@ -24807,6 +24896,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -24912,11 +25002,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>17</text>
             </RehearsalMark>
           <Rest>
@@ -24932,6 +25018,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25028,11 +25115,6 @@ OSAP/2023.02
         <startRepeat/>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
             <text>P</text>
             </RehearsalMark>
           <Rest>
@@ -25046,11 +25128,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>18</text>
             </RehearsalMark>
           <Rest>
@@ -25066,6 +25144,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25171,11 +25250,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>19</text>
             </RehearsalMark>
           <Rest>
@@ -25192,6 +25267,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25307,12 +25383,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <text>Q</text>
             </RehearsalMark>
           <Rest>
@@ -25329,10 +25400,10 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>Q</text>
             </RehearsalMark>
@@ -25365,11 +25436,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>22</text>
             </RehearsalMark>
           <Rest>
@@ -25385,6 +25452,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25490,11 +25558,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>23</text>
             </RehearsalMark>
           <Rest>
@@ -25510,6 +25574,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25634,11 +25699,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>24</text>
             </RehearsalMark>
           <Rest>
@@ -25654,6 +25715,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25769,11 +25831,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>25</text>
             </RehearsalMark>
           <Rest>
@@ -25789,6 +25847,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25835,11 +25894,7 @@ OSAP/2023.02
         <startRepeat/>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>R</text>
             </RehearsalMark>
           <Rest>
@@ -25856,6 +25911,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25911,11 +25967,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>26</text>
             </RehearsalMark>
           <Rest>
@@ -25931,6 +25983,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -25956,11 +26009,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>28</text>
             </RehearsalMark>
           <Rest>
@@ -25976,6 +26025,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -26061,11 +26111,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>27</text>
             </RehearsalMark>
           <Rest>
@@ -26081,6 +26127,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -26107,11 +26154,6 @@ OSAP/2023.02
         <endRepeat>2</endRepeat>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
             <text>29</text>
             </RehearsalMark>
           <Rest>
@@ -26164,12 +26206,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <text>S</text>
             </RehearsalMark>
           <Rest>
@@ -26186,10 +26223,10 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>S</text>
             </RehearsalMark>
@@ -26262,11 +26299,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>30</text>
             </RehearsalMark>
           <Rest>
@@ -26282,6 +26315,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -26406,11 +26440,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>31</text>
             </RehearsalMark>
           <Rest>
@@ -26426,6 +26456,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -26461,12 +26492,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <SystemText>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <italic>1</italic>
             <text><i>Furioso</i></text>
             </SystemText>
@@ -26484,10 +26510,10 @@ OSAP/2023.02
         <voice>
           <SystemText>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Furioso</i></text>
@@ -26571,11 +26597,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>32</text>
             </RehearsalMark>
           <Rest>
@@ -26591,6 +26613,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -26696,11 +26719,7 @@ OSAP/2023.02
       <Measure>
         <voice>
           <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              </linked>
+            <linkedMain/>
             <text>33</text>
             </RehearsalMark>
           <Rest>
@@ -26716,6 +26735,7 @@ OSAP/2023.02
         <voice>
           <RehearsalMark>
             <linked>
+              <score>same</score>
               <location>
                 <staves>-6</staves>
                 </location>
@@ -34235,12 +34255,53 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>4</multiMeasureRest>
+      <Measure>
         <voice>
           <Rest>
+            <linked>
+              </linked>
             <durationType>measure</durationType>
-            <duration>8/4</duration>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -34294,62 +34355,12 @@ OSAP/2023.02
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>10</multiMeasureRest>
+      <Measure len="10/4">
+        <multiMeasureRest>5</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <duration>10/4</duration>
             </Rest>
           </voice>
         </Measure>
