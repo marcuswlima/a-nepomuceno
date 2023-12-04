@@ -23181,15 +23181,23 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
-        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <PlayTechAnnotation>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -23250,15 +23258,23 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
-        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <PlayTechAnnotation>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -26707,82 +26723,117 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
@@ -35388,15 +35439,34 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
-        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -35457,15 +35527,34 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
-        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>

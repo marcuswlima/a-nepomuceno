@@ -17,7 +17,6 @@
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <repeatBarTips>1</repeatBarTips>
       <mrNumberSeries>1</mrNumberSeries>
-      <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <measureNumberPosBelow x="0" y="1"/>
       <Spatium>1.74978</Spatium>
@@ -9509,7 +9508,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Vivo</i></text>
+            <text><i><font size="12"/>Vivo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -9726,7 +9725,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -13998,15 +13997,41 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
-        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </MeasureRepeat>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
