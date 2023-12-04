@@ -13389,17 +13389,7 @@ Alberto Nepomuceno
               <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
-            <text><i>Doppio movimento</i></text>
-            </SystemText>
-          <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <italic>1</italic>
-            <text><i>(in 1)</i></text>
+            <text><i>Doppio movimento em(1)</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -13421,17 +13411,7 @@ Alberto Nepomuceno
               <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
-            <text><i>Doppio movimento</i></text>
-            </SystemText>
-          <SystemText>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <italic>1</italic>
-            <text><i>(in 1)</i></text>
+            <text><i>Doppio movimento em(1)</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>

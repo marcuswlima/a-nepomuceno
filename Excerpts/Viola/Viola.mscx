@@ -31714,17 +31714,7 @@ Alberto Nepomuceno
               <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
-            <text><i>Doppio movimento</i></text>
-            </SystemText>
-          <SystemText>
-            <linked>
-              <location>
-                <staves>-4</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <italic>1</italic>
-            <text><i>(in 1)</i></text>
+            <text><i>Doppio movimento em(1)</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -31783,6 +31773,17 @@ Alberto Nepomuceno
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <linked>
@@ -31799,6 +31800,13 @@ Alberto Nepomuceno
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <linked>
@@ -31911,6 +31919,17 @@ Alberto Nepomuceno
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <linked>
@@ -31927,6 +31946,13 @@ Alberto Nepomuceno
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <linked>
@@ -31942,10 +31968,10 @@ Alberto Nepomuceno
           <Chord>
             <linked>
               </linked>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -31961,7 +31987,7 @@ Alberto Nepomuceno
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -32017,11 +32043,13 @@ Alberto Nepomuceno
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -32074,11 +32102,13 @@ Alberto Nepomuceno
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -32131,11 +32161,13 @@ Alberto Nepomuceno
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
@@ -32224,11 +32256,13 @@ Alberto Nepomuceno
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>

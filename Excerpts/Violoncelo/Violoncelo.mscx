@@ -25908,17 +25908,7 @@ Alberto Nepomuceno
               <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
-            <text><i>Doppio movimento</i></text>
-            </SystemText>
-          <SystemText>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <italic>1</italic>
-            <text><i>(in 1)</i></text>
+            <text><i>Doppio movimento em(1)</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -25940,17 +25930,7 @@ Alberto Nepomuceno
               <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
-            <text><i>Doppio movimento</i></text>
-            </SystemText>
-          <SystemText>
-            <linked>
-              <location>
-                <staves>-6</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <italic>1</italic>
-            <text><i>(in 1)</i></text>
+            <text><i>Doppio movimento em(1)</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -26015,52 +25995,92 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
