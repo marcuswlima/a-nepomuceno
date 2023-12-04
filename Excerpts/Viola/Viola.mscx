@@ -27237,6 +27237,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <RehearsalMark>
             <linked>
@@ -30527,9 +30528,10 @@ Alberto Nepomuceno
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -30545,7 +30547,7 @@ Alberto Nepomuceno
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <linked>
                 </linked>
               </Articulation>
