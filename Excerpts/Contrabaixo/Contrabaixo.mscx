@@ -15,6 +15,7 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <repeatBarTips>1</repeatBarTips>
       <mrNumberSeries>1</mrNumberSeries>
       <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
       <createMultiMeasureRests>1</createMultiMeasureRests>
@@ -81,17 +82,17 @@
           </linked>
         <Text>
           <style>frame</style>
-          <text><font size="67"></font><font size="10"></font>Série Brazileira
-<font size="67"></font><font size="10"></font>para 
+          <text>Série Brazileira
+para 
 ORCHESTRA
-<font size="20"></font><font size="10"></font>Por
+Por
 Alberto Nepomuceno
-<font size="38"></font><font size="10"></font>1.Alvorada na Serra
+1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
-<font size="20"></font><font size="10"></font>OSAP/2023.02
-<font size="20"></font></text>
+OSAP/2023.02
+</text>
           </Text>
         </TBox>
       <TBox>
@@ -9529,7 +9530,7 @@ Alberto Nepomuceno
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Vivo</i></text>
+            <text><i><font size="12"/>Vivo</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -9746,7 +9747,7 @@ Alberto Nepomuceno
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -14790,6 +14791,9 @@ Alberto Nepomuceno
       <Measure>
         <startRepeat/>
         <voice>
+          <BarLine>
+            <subtype>start-repeat</subtype>
+            </BarLine>
           <RehearsalMark>
             <linked>
               <location>
