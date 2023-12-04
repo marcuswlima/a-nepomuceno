@@ -9,6 +9,12 @@
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.3189</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+      <pageOddTopMargin>0.590551</pageOddTopMargin>
+      <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <mrNumberSeries>1</mrNumberSeries>
       <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
       <createMultiMeasureRests>1</createMultiMeasureRests>
@@ -81,22 +87,17 @@
           </linked>
         <Text>
           <style>frame</style>
-          <text><font size="67"/>
-<font size="10"/>Série Brazileira
-<font size="67"/>
-<font size="10"/>para 
+          <text><font size="67"></font><font size="10"></font>Série Brazileira
+<font size="67"></font><font size="10"></font>para 
 ORCHESTRA
-<font size="20"/>
-<font size="10"/>Por
+<font size="20"></font><font size="10"></font>Por
 Alberto Nepomuceno
-<font size="38"/>
-<font size="10"/>1.Alvorada na Serra
+<font size="38"></font><font size="10"></font>1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
-<font size="20"/>
-<font size="10"/>OSAP/2023.02
-<font size="20"/></text>
+<font size="20"></font><font size="10"></font>OSAP/2023.02
+<font size="20"></font></text>
           </Text>
         </TBox>
       <TBox>
@@ -105,7 +106,6 @@ Alberto Nepomuceno
           <location>
             <staves>-6</staves>
             </location>
-          <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <style>frame</style>
@@ -130,7 +130,7 @@ Alberto Nepomuceno
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>6</indexDiff>
+              <indexDiff>4</indexDiff>
               </linked>
             <bold>1</bold>
             <italic>1</italic>
@@ -159,7 +159,7 @@ Alberto Nepomuceno
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>6</indexDiff>
+              <indexDiff>4</indexDiff>
               </linked>
             <bold>1</bold>
             <italic>1</italic>
@@ -2037,18 +2037,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2064,13 +2052,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5598,18 +5579,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5633,13 +5602,6 @@ Alberto Nepomuceno
               </linked>
             <text>12</text>
             </RehearsalMark>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5877,18 +5839,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
             <linked>
               </linked>
@@ -5992,13 +5942,6 @@ Alberto Nepomuceno
             <italic>1</italic>
             <text><i>molto</i></text>
             </StaffText>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -9252,18 +9195,6 @@ Alberto Nepomuceno
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -9284,13 +9215,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -10010,28 +9934,20 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linked>
-            <location>
-              <staves>-7</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             </Fermata>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>whole</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -10077,7 +9993,7 @@ Alberto Nepomuceno
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>5</indexDiff>
+              <indexDiff>4</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Allegro</b></text>
@@ -13220,18 +13136,6 @@ Alberto Nepomuceno
               </linked>
             <text>24</text>
             </RehearsalMark>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -13340,13 +13244,6 @@ Alberto Nepomuceno
               </linked>
             <text>pizz.</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -13763,18 +13660,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -13833,13 +13718,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -15150,19 +15028,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -15251,14 +15116,6 @@ Alberto Nepomuceno
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -16427,18 +16284,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -16535,13 +16380,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -20174,7 +20012,7 @@ Alberto Nepomuceno
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -20195,7 +20033,7 @@ Alberto Nepomuceno
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -20945,7 +20783,7 @@ Alberto Nepomuceno
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -20966,7 +20804,7 @@ Alberto Nepomuceno
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -21396,11 +21234,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linked>
-            <location>
-              <staves>-7</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -21490,7 +21323,7 @@ Alberto Nepomuceno
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>5</indexDiff>
+              <indexDiff>4</indexDiff>
               </linked>
             <bold>1</bold>
             <italic>1</italic>
@@ -23228,23 +23061,21 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            <linked>
-              </linked>
-            </Fermata>
           <RehearsalMark>
             <linked>
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>5</text>
             </RehearsalMark>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <linked>
+              </linked>
+            </Fermata>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -23331,6 +23162,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23349,6 +23181,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23360,6 +23193,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23380,6 +23214,55 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -23392,56 +23275,28 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -23454,12 +23309,39 @@ Alberto Nepomuceno
               </linked>
             <text>6</text>
             </RehearsalMark>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure len="8/4">
@@ -23481,12 +23363,39 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -23576,11 +23485,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linked>
-            <location>
-              <staves>-7</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -23635,7 +23539,7 @@ Alberto Nepomuceno
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>4</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
@@ -23664,7 +23568,7 @@ Alberto Nepomuceno
               <location>
                 <staves>-6</staves>
                 </location>
-              <indexDiff>4</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <bold>1</bold>
             <text><b>Marcato e bem ritimado</b></text>
@@ -24865,12 +24769,75 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure len="18/4">
@@ -24884,72 +24851,132 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
@@ -29135,35 +29162,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -29194,18 +29192,6 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -29216,13 +29202,16 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <linked>
               </linked>
@@ -34510,6 +34499,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -34521,6 +34511,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -34532,6 +34523,7 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -34552,6 +34544,55 @@ Alberto Nepomuceno
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
+        <voice>
+          <MeasureRepeat>
+            <subtype>1</subtype>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </MeasureRepeat>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -34564,66 +34605,90 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </MeasureRepeat>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure len="8/4">
@@ -34637,12 +34702,60 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
