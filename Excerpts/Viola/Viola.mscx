@@ -23455,7 +23455,6 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -23467,177 +23466,6 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>-1</indexDiff>
-                  </linked>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Articulation>
-              <subtype>stringsUpBow</subtype>
-              <linked>
-                </linked>
-              </Articulation>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>32nd</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>17/32</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>32nd</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linked>
-                </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            </Rest>
-          <PlayTechAnnotation>
-            <playTechType>pizzicato</playTechType>
-            <linked>
-              </linked>
-            <text>pizz.</text>
-            </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-17/32</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Dynamic>
-            <subtype>sf</subtype>
-            <velocity>112</velocity>
-            <linked>
-              </linked>
-            </Dynamic>
-          <PlayTechAnnotation>
-            <linked>
-              </linked>
-            <text>arco</text>
-            </PlayTechAnnotation>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linked>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -24131,7 +23959,6 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -24143,7 +23970,6 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -24301,7 +24127,174 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>17/32</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>32nd</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <PlayTechAnnotation>
+            <playTechType>pizzicato</playTechType>
+            <linked>
+              </linked>
+            <text>pizz.</text>
+            </PlayTechAnnotation>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-17/32</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
+          <PlayTechAnnotation>
+            <linked>
+              </linked>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
                   </linked>
                 </Slur>
               <next>
@@ -24313,7 +24306,6 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -24641,6 +24633,7 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -24652,6 +24645,7 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27131,6 +27125,7 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -27142,6 +27137,7 @@ Alberto Nepomuceno
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
