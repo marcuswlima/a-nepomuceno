@@ -33475,11 +33475,6 @@ Alberto Nepomuceno
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linked>
-                </linked>
-              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -33494,11 +33489,6 @@ Alberto Nepomuceno
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linked>
-                </linked>
-              </Articulation>
             <Note>
               <linked>
                 </linked>
