@@ -14494,6 +14494,15 @@ OSAP/2023.02
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-8</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>21</text>
+            </RehearsalMark>
           <MeasureRepeat>
             <subtype>1</subtype>
             <linked>
@@ -14545,40 +14554,17 @@ OSAP/2023.02
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </MeasureRepeat>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Chord>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>

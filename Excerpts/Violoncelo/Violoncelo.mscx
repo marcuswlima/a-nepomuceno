@@ -27260,6 +27260,15 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-6</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>21</text>
+            </RehearsalMark>
           <MeasureRepeat>
             <subtype>1</subtype>
             <linked>
@@ -27311,11 +27320,6 @@ Alberto Nepomuceno
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </MeasureRepeat>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -38209,11 +38213,6 @@ Alberto Nepomuceno
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
