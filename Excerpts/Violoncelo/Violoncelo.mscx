@@ -27393,12 +27393,23 @@ Alberto Nepomuceno
               </linked>
             <text>Q</text>
             </RehearsalMark>
-          <Rest>
+          <Chord>
             <linked>
               <indexDiff>1</indexDiff>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -27422,22 +27433,24 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
@@ -27450,12 +27463,13 @@ Alberto Nepomuceno
               </linked>
             <text>22</text>
             </RehearsalMark>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure len="20/4">
@@ -27477,42 +27491,46 @@ Alberto Nepomuceno
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <MeasureRepeat>
+            <subtype>1</subtype>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
+            </MeasureRepeat>
           </voice>
         </Measure>
       <Measure>
