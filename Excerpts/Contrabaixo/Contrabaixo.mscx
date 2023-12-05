@@ -14944,7 +14944,7 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
-              <pitch>29</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
@@ -15084,15 +15084,23 @@ em(1)</i></text>
           </voice>
         </Measure>
       <Measure>
-        <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <MeasureRepeat>
-            <subtype>1</subtype>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </MeasureRepeat>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -15281,14 +15289,6 @@ em(1)</i></text>
       <Measure>
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
-            <text>28</text>
-            </RehearsalMark>
           <MeasureRepeat>
             <subtype>1</subtype>
             <linked>
