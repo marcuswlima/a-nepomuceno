@@ -21355,7 +21355,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -22612,7 +22612,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -22633,7 +22633,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -32386,11 +32386,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
@@ -32561,11 +32563,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -32693,11 +32697,13 @@ OSAP/2023.02
           <Rest>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin16</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
