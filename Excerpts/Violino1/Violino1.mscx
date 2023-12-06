@@ -27,6 +27,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">Violino1</metaTag>
     <Part id="3">
       <Staff id="1">
@@ -2257,10 +2258,19 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>whole</durationType>
             <Spanner type="Slur">
@@ -2272,7 +2282,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>83</pitch>
               <tpc>19</tpc>
@@ -2283,6 +2292,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -4070,15 +4084,23 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -4116,6 +4138,11 @@ OSAP/2023.02
             <text>12</text>
             </RehearsalMark>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -4346,10 +4373,19 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             </Rest>
@@ -4386,6 +4422,11 @@ OSAP/2023.02
             <text><i>molto</i></text>
             </StaffText>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -6653,15 +6694,23 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -6677,6 +6726,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -8523,16 +8577,24 @@ OSAP/2023.02
             <text>19</text>
             </RehearsalMark>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -8543,7 +8605,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -8571,6 +8632,11 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -8595,16 +8661,24 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -8615,7 +8689,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -8643,6 +8716,11 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -9875,16 +9953,24 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -9895,7 +9981,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>78</pitch>
               <tpc>20</tpc>
@@ -9945,18 +10030,31 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
             </Spanner>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -9967,7 +10065,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>78</pitch>
               <tpc>20</tpc>
@@ -10022,6 +10119,11 @@ OSAP/2023.02
             <text>21</text>
             </RehearsalMark>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -11776,15 +11878,23 @@ OSAP/2023.02
             <text>24</text>
             </RehearsalMark>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -11881,6 +11991,11 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -13296,16 +13411,24 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -13316,7 +13439,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>81</pitch>
               <tpc>17</tpc>
@@ -13449,6 +13571,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -16503,15 +16630,24 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>7/16</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>90</pitch>
               <tpc>20</tpc>
@@ -16682,6 +16818,12 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-7/16</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -17026,15 +17168,24 @@ OSAP/2023.02
             <text>arco</text>
             </PlayTechAnnotation>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>3</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>85</pitch>
               <tpc>21</tpc>
@@ -17181,6 +17332,12 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-3</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -17672,16 +17829,24 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>73</pitch>
               <tpc>21</tpc>
@@ -17708,6 +17873,11 @@ OSAP/2023.02
             <text>30</text>
             </RehearsalMark>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -17782,17 +17952,25 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -17803,7 +17981,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -17838,6 +18015,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -17912,17 +18094,25 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -17933,7 +18123,6 @@ OSAP/2023.02
               </Spanner>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>73</pitch>
               <tpc>21</tpc>
@@ -17970,6 +18159,11 @@ OSAP/2023.02
               </linked>
             </Fermata>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -28298,16 +28492,24 @@ OSAP/2023.02
             <text>arco</text>
             </PlayTechAnnotation>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -28319,7 +28521,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -28331,12 +28532,10 @@ OSAP/2023.02
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -28378,6 +28577,11 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -28619,16 +28823,24 @@ OSAP/2023.02
             <text>arco</text>
             </PlayTechAnnotation>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -28640,7 +28852,6 @@ OSAP/2023.02
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -28652,12 +28863,10 @@ OSAP/2023.02
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -28699,6 +28908,11 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -29497,17 +29711,25 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -29519,12 +29741,10 @@ OSAP/2023.02
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -29586,6 +29806,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -29706,17 +29931,25 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -29728,12 +29961,10 @@ OSAP/2023.02
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -29801,6 +30032,11 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -33319,15 +33555,23 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="Ottava">
+            <Ottava>
+              <subtype>8va</subtype>
+              <linked>
+                </linked>
+              </Ottava>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -33486,6 +33730,11 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="Ottava">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -34018,15 +34267,25 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <placement>above</placement>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/16</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -34086,6 +34345,12 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/16</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -35064,15 +35329,23 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -35144,6 +35417,11 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -35277,15 +35555,24 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/16</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -35334,6 +35621,12 @@ OSAP/2023.02
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/16</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -35347,15 +35640,24 @@ OSAP/2023.02
               </Note>
             </Chord>
           <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/16</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -35398,6 +35700,12 @@ OSAP/2023.02
       <Measure>
         <voice>
           <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/16</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -35437,6 +35745,7 @@ OSAP/2023.02
             <linked>
               </linked>
             <italic>1</italic>
+            <offset x="0" y="-7.16129"/>
             <text><i>Doppio movimento
 em(1)</i></text>
             </SystemText>
@@ -35444,6 +35753,8 @@ em(1)</i></text>
             <playTechType>pizzicato</playTechType>
             <linked>
               </linked>
+            <minDistance>-6</minDistance>
+            <offset x="0" y="-1.55645"/>
             <text>pizz.</text>
             </PlayTechAnnotation>
           <Chord>
@@ -37197,6 +37508,11 @@ em(1)</i></text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37216,9 +37532,6 @@ em(1)</i></text>
         </Measure>
       <Measure>
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <RehearsalMark>
             <linked>
               </linked>
@@ -37599,6 +37912,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>73</pitch>
               <tpc>9</tpc>
               </Note>
@@ -37679,6 +37995,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>73</pitch>
               <tpc>9</tpc>
               </Note>
@@ -37754,6 +38073,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>75</pitch>
               <tpc>11</tpc>
               </Note>
@@ -37844,6 +38166,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>75</pitch>
               <tpc>11</tpc>
               </Note>
@@ -37917,6 +38242,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>80</pitch>
               <tpc>10</tpc>
               </Note>
@@ -37926,20 +38254,6 @@ em(1)</i></text>
               </linked>
             <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -38019,21 +38333,6 @@ em(1)</i></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <text>Q</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -38156,20 +38455,6 @@ em(1)</i></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>22</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -38368,6 +38653,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
@@ -38505,6 +38793,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
@@ -38543,25 +38834,6 @@ em(1)</i></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>23</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -38649,7 +38921,7 @@ em(1)</i></text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -38731,15 +39003,6 @@ em(1)</i></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -38908,20 +39171,6 @@ em(1)</i></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="22/4">
-        <multiMeasureRest>11</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>24</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>22/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -39201,6 +39450,9 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
@@ -39305,20 +39557,6 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>25</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -39336,7 +39574,7 @@ em(1)</i></text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linked>
                 </linked>
               </Articulation>
@@ -39463,8 +39701,8 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="8/4">
+        <multiMeasureRest>4</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -39495,15 +39733,6 @@ em(1)</i></text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -39555,6 +39784,15 @@ em(1)</i></text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -39644,24 +39882,13 @@ em(1)</i></text>
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>27</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -49976,6 +50203,11 @@ em(1)</i></text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -50395,21 +50627,6 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <span>1</span>
-            <linked>
-              </linked>
-            </BarLine>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -50436,54 +50653,6 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -50584,21 +50753,6 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <span>1</span>
-            <linked>
-              </linked>
-            </BarLine>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -50606,114 +50760,6 @@ em(1)</i></text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="22/4">
-        <multiMeasureRest>11</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>22/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50827,12 +50873,123 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>4</multiMeasureRest>
+      <Measure>
         <voice>
           <Rest>
+            <linked>
+              </linked>
             <durationType>measure</durationType>
-            <duration>8/4</duration>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50935,8 +51092,8 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="8/4">
+        <multiMeasureRest>4</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -50964,12 +51121,42 @@ em(1)</i></text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>8</multiMeasureRest>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>3</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>16/4</duration>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -51020,45 +51207,6 @@ em(1)</i></text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
