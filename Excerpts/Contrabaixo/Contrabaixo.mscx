@@ -15848,12 +15848,6 @@ em(1)</i></text>
               </linked>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <linked>
-              </linked>
-            </Dynamic>
           <Chord>
             <linked>
               </linked>
