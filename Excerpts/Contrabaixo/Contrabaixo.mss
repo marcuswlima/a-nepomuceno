@@ -134,7 +134,7 @@
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
     <mrNumberSeries>1</mrNumberSeries>
-    <mrNumberEveryXMeasures>4</mrNumberEveryXMeasures>
+    <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
     <mrNumberSeriesWithParentheses>1</mrNumberSeriesWithParentheses>
     <oneMeasureRepeatShow1>0</oneMeasureRepeatShow1>
     <fourMeasureRepeatShowExtenders>0</fourMeasureRepeatShowExtenders>
@@ -402,20 +402,24 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Série Brazileira - ContraBaixo</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Série Brazileira - ContraBaixo</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
-    <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
-    <evenFooterR></evenFooterR>
-    <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
-    <oddFooterR></oddFooterR>
+    <evenFooterL>OSAP</evenFooterL>
+    <evenFooterC>@marcuswlima_
+marcuswlima@gmail.com
+</evenFooterC>
+    <evenFooterR>2023-02</evenFooterR>
+    <oddFooterL>OSAP</oddFooterL>
+    <oddFooterC>@marcuswlima_
+marcuswlima@gmail.com
+</oddFooterC>
+    <oddFooterR>2023-02</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
     <voltaLineWidth>0.11</voltaLineWidth>

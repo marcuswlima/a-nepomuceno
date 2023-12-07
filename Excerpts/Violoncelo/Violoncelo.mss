@@ -370,7 +370,7 @@
     <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
-    <hideEmptyStaves>0</hideEmptyStaves>
+    <hideEmptyStaves>1</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
@@ -402,20 +402,24 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Série Brazileira - Volaocello</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Série Brazileira - Volaocello</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
-    <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
-    <evenFooterR></evenFooterR>
-    <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
-    <oddFooterR></oddFooterR>
+    <evenFooterL>OSAP</evenFooterL>
+    <evenFooterC>@marcuswlima_
+marcuswlima@gmail.com
+</evenFooterC>
+    <evenFooterR>2023-02</evenFooterR>
+    <oddFooterL>OSAP</oddFooterL>
+    <oddFooterC>@marcuswlima_
+marcuswlima@gmail.com
+</oddFooterC>
+    <oddFooterR>2023-02</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
     <voltaLineWidth>0.11</voltaLineWidth>
