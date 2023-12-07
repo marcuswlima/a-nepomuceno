@@ -20,6 +20,19 @@
       <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <hideEmptyStaves>1</hideEmptyStaves>
+      <evenHeaderC>Série Brazileira - Violino2</evenHeaderC>
+      <oddHeaderC>Série Brazileira - Violino2</oddHeaderC>
+      <footerFirstPage>0</footerFirstPage>
+      <evenFooterL>OSAP</evenFooterL>
+      <evenFooterC>@marcuswlima_
+marcuswlima@gmail.com
+</evenFooterC>
+      <evenFooterR>2023-02</evenFooterR>
+      <oddFooterL>OSAP</oddFooterL>
+      <oddFooterC>@marcuswlima_
+marcuswlima@gmail.com
+</oddFooterC>
+      <oddFooterR>2023-02</oddFooterR>
       <measureNumberPosBelow x="0" y="1"/>
       <Spatium>1.74978</Spatium>
       </Style>
@@ -70,13 +83,6 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox>
-        <height>10</height>
-        <Text>
-          <style>instrument_excerpt</style>
-          <text>Violino2</text>
-          </Text>
-        </VBox>
       <TBox>
         <height>1</height>
         <linked>
@@ -86,15 +92,25 @@
           </linked>
         <Text>
           <style>frame</style>
-          <text>Série Brazileira
-para 
+          <align>center,top</align>
+          <text><font size="67"/>
+Série Brazileira
+<font size="20"/>para 
 ORCHESTRA
+
+
 Por
-Alberto Nepomuceno
-1.Alvorada na Serra
+<font size="38"/>Alberto Nepomuceno
+
+<font size="20"/>1.Alvorada na Serra
 2. Intermedio
 3. A Sesta - Na Rede
 4. Batuque
+
+
+
+
+
 OSAP/2023.02
 </text>
           </Text>
@@ -108,7 +124,9 @@ OSAP/2023.02
           </linked>
         <Text>
           <style>frame</style>
-          <text>I Madrugada na Serra</text>
+          <size>20</size>
+          <align>center,top</align>
+          <text><font size="20"/>I Madrugada na Serra</text>
           </Text>
         </TBox>
       <Measure>
@@ -1783,6 +1801,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <linked>
@@ -2194,6 +2215,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -3059,6 +3083,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <linked>
@@ -3234,6 +3261,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <SystemText>
             <linked>
@@ -3510,6 +3540,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -6485,6 +6518,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -7490,7 +7526,9 @@ OSAP/2023.02
           </linked>
         <Text>
           <style>frame</style>
-          <text>II- Intermedio</text>
+          <size>20</size>
+          <align>center,top</align>
+          <text><font size="20"/>II- Intermedio</text>
           </Text>
         </TBox>
       <Measure>
@@ -18378,6 +18416,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -24845,7 +24886,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Vivo</i></text>
+            <text><i><font size="12"/>Vivo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -25864,7 +25905,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -25885,7 +25926,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -26385,7 +26426,9 @@ OSAP/2023.02
           </linked>
         <Text>
           <style>frame</style>
-          <text>III- La Siesta</text>
+          <size>20</size>
+          <align>center,top</align>
+          <text><font size="20"/>III- La Siesta</text>
           </Text>
         </TBox>
       <Measure>
@@ -30238,7 +30281,9 @@ OSAP/2023.02
           </linked>
         <Text>
           <style>frame</style>
-          <text>IV - Batuque</text>
+          <size>20</size>
+          <align>center,top</align>
+          <text><font size="20"/>IV - Batuque</text>
           </Text>
         </TBox>
       <Measure>

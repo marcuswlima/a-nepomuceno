@@ -20,6 +20,17 @@
       <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <hideEmptyStaves>1</hideEmptyStaves>
+      <evenHeaderC>Serie Brazileira - Violino1</evenHeaderC>
+      <oddHeaderC>Serie Brazileira - Violino1</oddHeaderC>
+      <footerFirstPage>0</footerFirstPage>
+      <evenFooterL>OSAP</evenFooterL>
+      <evenFooterC>@marcuswlima_
+marcuswlima@gmail.com</evenFooterC>
+      <evenFooterR>2023-02</evenFooterR>
+      <oddFooterL>OSAP</oddFooterL>
+      <oddFooterC>@marcuswlima_
+marcuswlima@gmail.com</oddFooterC>
+      <oddFooterR>2023-02</oddFooterR>
       <measureNumberPosBelow x="0" y="1"/>
       <Spatium>1.74978</Spatium>
       </Style>
@@ -70,22 +81,16 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox>
-        <height>3.5</height>
-        <boxAutoSize>0</boxAutoSize>
-        <Text>
-          <style>instrument_excerpt</style>
-          <text>Violino1</text>
-          </Text>
-        </VBox>
       <TBox>
         <height>1</height>
         <linked>
           </linked>
         <Text>
           <style>frame</style>
+          <size>38</size>
           <align>center,top</align>
-          <text><font size="67"/>Série Brazileira
+          <text><font size="67"/>
+Série Brazileira
 <font size="20"/>para 
 ORCHESTRA
 
@@ -94,12 +99,11 @@ ORCHESTRA
 <font size="38"/>Alberto Nepomuceno
 
 <font size="20"/>1.Alvorada na Serra
-
 2. Intermedio
-
 3. A Sesta - Na Rede
-
 4. Batuque
+
+
 
 
 
@@ -2676,9 +2680,6 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -2755,6 +2756,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <linked>
@@ -26273,7 +26277,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Vivo</i></text>
+            <text><i><font size="12"/>Vivo</i></text>
             </SystemText>
           <Dynamic>
             <subtype>ff</subtype>
@@ -27521,7 +27525,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -27540,7 +27544,7 @@ OSAP/2023.02
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"></font>Tempo I</i></text>
+            <text><i><font size="12"/>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -35475,6 +35479,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -35783,6 +35790,9 @@ OSAP/2023.02
         </Measure>
       <Measure len="4/4">
         <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -35791,6 +35801,9 @@ OSAP/2023.02
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linked>
@@ -41414,6 +41427,11 @@ em(1)</i></text>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              <linked>
+                </linked>
+              </Tremolo>
             </Chord>
           <Chord>
             <linked>
